@@ -14,8 +14,8 @@ const Footer = () => {
                         <img src={logo} alt="Error" />
                         <h5>UpDate</h5>
                         </div>
-                        <a href="#" className="text-white me-2 fw-bold fs-6">support@update.com</a>
-                        <p className='mt-2 fw-bold fs-6'>+1 (213) 677 10 24</p>
+                        <a href="#" className="text-white me-2 fw-bold fs-5">support@update.com</a>
+                        <p className='mt-2 fw-bold fs-5'>+1 (213) 677 10 24</p>
                         <div className="social-icons mt-5">
                             <a href="https://facebook.com" target="_blank" className="text-white me-2">
                                 <FontAwesomeIcon icon={faFacebookF} className="icon" />
@@ -28,7 +28,7 @@ const Footer = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-2">
                         <h5>Courses</h5>
                         <ul className="list-unstyled">
                             <li><a href="#" className="custom-text">Animation</a></li>
