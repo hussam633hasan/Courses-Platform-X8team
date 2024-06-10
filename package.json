@@ -5,8 +5,8 @@
   "homepage": "https://hussam633hasan.github.io/Courses-Platform-X8team/",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -19,7 +19,6 @@
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "bootstrap": "^5.3.3",
-    "courses-platform-x8team": "github:hussam633hasan/Courses-Platform-X8team",
     "formik": "^2.4.6",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
