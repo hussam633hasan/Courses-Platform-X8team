@@ -5,4 +5,4 @@ function Article() {
         </>
         )
 }
-export default Aritcle;
+export default Article;
