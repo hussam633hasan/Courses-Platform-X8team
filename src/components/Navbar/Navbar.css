@@ -1,0 +1,30 @@
+.HH-Nav-button{
+    padding: 0px 20px 0px 20px;
+    border-radius: 0px;
+}
+.HH-Row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.HH-Col-1 , .HH-Col-2{
+    display: flex; 
+}
+.HH-nav-link{
+    margin: 0px 35px;
+}
+
+@media (min-width:320px) and (max-width:992px){
+    .HH-Row{
+        display: block;
+        width: 100%;
+    }
+
+    .HH-Col-1 , .HH-Col-2{
+        display: block; 
+    }
+    .HH-nav-link{
+        margin: 0px;
+    }
+}

@@ -7,6 +7,7 @@ import Courses from './pages/Courses/Courses';
 import Blog from './pages/Blog/Blog';
 import Article from './pages/Article/Article';
 import Dashboard from './pages/Dashboard/Dashboard';
+import Navbarr from './components/Navbar/Navbar';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <>
+    <Navbarr/>
     <Routes>
       <Route path='/' element={<Home />}/>
       <Route path='/courses' element ={<Courses />}/>
@@ -21,7 +23,7 @@ function App() {
       <Route path='/article' element ={<Article />}/>
       <Route path='/dashboard' element ={<Dashboard />}/>
     </Routes>
-      
+    
     </>
   )
 }
