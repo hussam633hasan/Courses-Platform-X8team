@@ -1,5 +1,5 @@
 import { faFacebookF, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import logo from "../../../public/assets/images/Footer/logo.png";
+import logo from "/assets/images/Footer/logo.png";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
