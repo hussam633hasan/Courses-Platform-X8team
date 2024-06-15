@@ -72,7 +72,35 @@
 .person-card4 {
   margin-top: 8%;
 }
-
+@media (max-width: 992px) {
+  .cards-section h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cards-section .more {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .cards-section .more p {
+    width: 100%;
+    color: #6d6d77;
+    text-align: center;
+  }
+  .person-card2,
+  .person-card4 {
+    margin-top: 0;
+  }
+  .person-card1,
+  .person-card2,
+  .person-card3,
+  .person-card4 {
+    width: 45%;
+  }
+}
 @media (max-width: 765px) {
   .cards-section h2 {
     width: 100%;
@@ -94,5 +122,11 @@
   .person-card2,
   .person-card4 {
     margin-top: 0;
+  }
+  .person-card1,
+  .person-card2,
+  .person-card3,
+  .person-card4 {
+    width: 100%;
   }
 }
