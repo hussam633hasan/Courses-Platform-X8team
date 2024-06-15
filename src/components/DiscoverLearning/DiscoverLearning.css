@@ -3,3 +3,51 @@
     font-family: Inter;
     font-weight: 700;
 }
+
+.DJ-discover .DJ-active {
+    font-weight: 700;
+    position: relative;
+}
+
+.DJ-discover .DJ-active::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    width: 50px;
+    height: 3px;
+    background-color: black;
+}
+
+.DJ-discover .DJ-more {
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.DJ-discover .DJ-more .DJ-icon-right {
+    margin-left: 15px;
+    width: 20px;
+}
+
+.DJ-discover h5 {
+    margin-top: 20px;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.DJ-discover .DJ-icon-up {
+    width: 12px;
+}
+
+@media screen and (max-width: 992px) {
+    .DJ-discover .DJ-discoverNav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    .DJ-discover .DJ-active::before {
+        left: 3px;
+    }
+}
+
