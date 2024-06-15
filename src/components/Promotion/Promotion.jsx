@@ -29,6 +29,10 @@ function Promotion() {
         <button>Choose a course</button>
         </Link>
       </div>
+      <div className="background-shape rectangle"></div>
+      <div className="background-shape circle"></div>
+      <div className="background-shape s_circle"></div>
+    
     </section>
   );
 }
