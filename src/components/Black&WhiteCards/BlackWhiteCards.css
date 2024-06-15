@@ -72,6 +72,7 @@
 .person-card4 {
   margin-top: 8%;
 }
+
 @media (max-width: 992px) {
   .cards-section h2 {
     width: 100%;
@@ -127,6 +128,6 @@
   .person-card2,
   .person-card3,
   .person-card4 {
-    width: 100%;
+    width: 98%;
   }
 }
