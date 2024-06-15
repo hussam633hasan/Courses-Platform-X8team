@@ -20,7 +20,7 @@ function ContentInfo() {
                 <p>Creators</p>
             </div>
             <div className="stat3">
-                <h2>3 723</h2>
+                <h2>3<span className="hidden-span">,</span>723</h2>
                 <p>Graduates</p>
             </div>
         </div>
