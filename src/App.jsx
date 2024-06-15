@@ -7,7 +7,7 @@ import Courses from './pages/Courses/Courses';
 import Blog from './pages/Blog/Blog';
 import Article from './pages/Article/Article';
 import Dashboard from './pages/Dashboard/Dashboard';
-import Navbar from './components/Navbar/Navbar'
+
 
 
 function App() {

@@ -1,0 +1,194 @@
+* {
+  font-family: Inter;
+}
+
+.promo {
+  background-image: url("./../../../public/assets/images/Main_page/Untitled-12.png");
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  color: #fbfbfc;
+  display: Flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 309.88px;
+}
+
+.percentage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time h6 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.78px;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.time h6:last-child {
+  margin-right: 0;
+}
+
+.promoDesc {
+  margin-right: 100px;
+  position: relative;
+}
+
+.promoDesc p {
+  width: 486px;
+  height: 56px;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+  font-weight: 400;
+  color: #efeff2;
+  padding-top: 20px;
+}
+
+.promoDesc img{
+    position: absolute;
+    top: -60px;
+    right: 80px;
+}
+
+.CourseLink {
+  padding-right: 100px;
+  position: relative;
+}
+
+.CourseLink img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg)
+    brightness(200%) contrast(100%);
+  position: absolute;
+  top: -60px;
+  left: -180px;
+}
+
+.CourseLink button {
+  width: 220px;
+  height: 54px;
+  padding: 16px 36px 16px 36px;
+  background-color: #504dee;
+  color: white;
+  border: none;
+  color: #fbfbfc;
+  font-weight: 700;
+  size: 18px;
+}
+
+
+@media (max-width: 1400px) {
+    .promo {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .percentage {
+      padding-left: 0;
+      margin-bottom: 20px;
+    }
+  
+    .promoDesc {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .promoDesc p {
+      width: 100%;
+      height: auto;
+    }
+  
+    .promoDesc img {
+      display: none;
+    }
+  
+    .CourseLink {
+      padding-right: 0;
+    }
+  
+    .CourseLink img {
+      position: static;
+      margin: 20px auto;
+    }
+  
+    .CourseLink button {
+      width: 100%;
+      max-width: 220px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .promo {
+      padding: 10px;
+    }
+  
+    .percentage h2 {
+      font-size: 24px;
+    }
+  
+    .time h6 {
+      font-size: 14px;
+    }
+  
+    .promoDesc p {
+      font-size: 16px;
+    }
+  
+    .CourseLink button {
+      width: 100%;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .promo {
+      padding: 5px;
+    }
+  
+    .percentage h2 {
+      font-size: 20px;
+    }
+  
+    .time h6 {
+      font-size: 12px;
+    }
+  
+    .promoDesc p {
+      font-size: 14px;
+      width: 100%;
+      padding-top: 10px;
+    }
+  
+    .promoDesc img {
+      display: none; 
+    }
+  
+    .CourseLink {
+      padding-right: 0;
+    }
+  
+    .CourseLink img {
+        display: none; 
+    }
+  
+    .CourseLink button {
+      width: 100%;
+      max-width: 200px;
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
