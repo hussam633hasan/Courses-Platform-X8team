@@ -9,6 +9,7 @@ import Article from './pages/Article/Article';
 import Dashboard from './pages/Dashboard/Dashboard';
 
 
+
 function App() {
   
 
@@ -20,6 +21,7 @@ function App() {
       <Route path='/blog' element ={<Blog />}/>
       <Route path='/article' element ={<Article />}/>
       <Route path='/dashboard' element ={<Dashboard />}/>
+     
     </Routes>
       
     </>
