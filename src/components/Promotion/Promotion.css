@@ -14,6 +14,13 @@
   height: 309.88px;
 }
 
+h2 {
+font-size: 58px;
+font-weight: 700;
+text-align: left;
+
+}
+
 .percentage {
   display: flex;
   flex-direction: column;
@@ -88,6 +95,9 @@
 
 
 @media (max-width: 1400px) {
+    h2 {
+        font-size: 40px;}
+
     .promo {
       flex-direction: column;
       height: auto;
