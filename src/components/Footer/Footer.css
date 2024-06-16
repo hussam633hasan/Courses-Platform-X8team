@@ -1,0 +1,57 @@
+.social-icons a {
+  font-size: 20px;
+}
+.social-icons .icon {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  width: 24px;
+  padding: 4px 0;
+  margin: 0 2px;
+  transition: 0.3s ease-in-out;
+}
+.custom-margin {
+  margin-top: 28px;
+}
+.social-icons a :hover {
+  cursor: pointer;
+  background-color: #19191c;
+  color: white;
+}
+.footer {
+  background-color: #19191c;
+}
+.logo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.logo img {
+  width: 42px;
+  height: 36px;
+  top: 59px;
+  left: 240px;
+  margin-bottom: 15px;
+}
+.footer h5 {
+  margin-bottom: 28px;
+}
+.custom-text {
+  color: #efeff2;
+}
+.footer li {
+  margin-top: 12px;
+}
+.footer a {
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+.copyRight p {
+  color: #6d6d77;
+  margin: 14px;
+  display: inline;
+}
