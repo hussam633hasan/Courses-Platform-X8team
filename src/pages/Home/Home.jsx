@@ -7,7 +7,9 @@ function Home() {
   return (
     <>
       <Navbar />
+      <ContentInfo />
       <Promotion />
+      
     </>
   );
 }
