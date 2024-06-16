@@ -8,7 +8,7 @@ function ContentInfo() {
             <h2>What You will learn</h2>
             <p>Up-to-date knowledge from recognized market experts for beginners and practitioners</p>
             <p>On the platform, you can gain knowledge on current topics and
-            in-demand skills. All courses are aimed at practice: we monitor the relevance of the material and help with employment and internship</p>
+            indemand skills. All courses are aimed at practice: we monitor the relevance of the material and help with employment and internship</p>
         </div>
         <div className="statistics">
             <div className="stat1">

@@ -16,9 +16,10 @@
   overflow: hidden;
 }
 
-h2 {
+.promo h2 {
   font-size: 45px;
   font-weight: 700;
+  color: #fbfbfc;
 }
 
 .percentage {
@@ -88,7 +89,6 @@ h2 {
   background-color: #504dee;
   color: white;
   border: none;
-  color: #fbfbfc;
   font-weight: 500;
   size: 18px;
 }
