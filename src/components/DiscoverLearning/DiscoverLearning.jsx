@@ -36,12 +36,12 @@ export default function DiscoverLearning() {
             <Navbar expand="lg DJ-discoverNav">
                 <Nav className="DJ-nav me-auto gap-3">
                     <Nav.Link href="#home" className='DJ-active'>Popular</Nav.Link>
-                    <Nav.Link className='DJ-nav-item' href="#link">Animation</Nav.Link>
-                    <Nav.Link className='DJ-nav-item' href="#link">Design</Nav.Link>
-                    <Nav.Link className='DJ-nav-item' href="#link">Illustration</Nav.Link>
-                    <Nav.Link className='DJ-nav-item' href="#link">Programming</Nav.Link>
-                    <Nav.Link className='DJ-nav-item' href="#link">Photo & Film</Nav.Link>
-                    <Nav.Link className='DJ-nav-item' href="#link">Marketing</Nav.Link>
+                    <Nav.Link className='DJ-navItem' href="#link">Animation</Nav.Link>
+                    <Nav.Link className='DJ-navItem' href="#link">Design</Nav.Link>
+                    <Nav.Link className='DJ-navItem' href="#link">Illustration</Nav.Link>
+                    <Nav.Link className='DJ-navItem' href="#link">Programming</Nav.Link>
+                    <Nav.Link className='DJ-navItem' href="#link">Photo & Film</Nav.Link>
+                    <Nav.Link className='DJ-navItem' href="#link">Marketing</Nav.Link>
                 </Nav>
                 <Nav.Link href="#link" className='DJ-more'>See more 
                     <img className='DJ-icon-right' src="./assets/images/Main_page/Discover Lifelong Learning/arrow-right.svg" alt="" />
@@ -54,7 +54,7 @@ export default function DiscoverLearning() {
                     return (
                         <Col key={index} md="6" lg="3" className='d-flex justify-content-center mb-3'>
                             <div className='DJ-card'>
-                                <img src={learningCard.image} alt="" className='w-100' />
+                                <img src={learningCard.image} alt="Course image" className='img-fluid' />
                                 <h5>{learningCard.title}</h5>
                                 <div className='d-flex justify-content-between'>
                                     <p className='text-secondary'>{learningCard.text}</p>

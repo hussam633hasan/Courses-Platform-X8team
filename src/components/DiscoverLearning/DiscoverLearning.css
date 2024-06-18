@@ -9,12 +9,12 @@
     position: relative;
 }
 
-.DJ-discover .DJ-nav .DJ-nav-item {
+.DJ-discover .DJ-nav .DJ-navItem {
     position: relative;
 }
 
 .DJ-discover .DJ-active::before,
-.DJ-discover .DJ-nav .DJ-nav-item:before {
+.DJ-discover .DJ-nav .DJ-navItem:before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -24,7 +24,7 @@
 }
 
 .DJ-discover .DJ-nav .DJ-active::before,
-.DJ-discover .DJ-nav .DJ-nav-item:hover:before {
+.DJ-discover .DJ-nav .DJ-navItem:hover:before {
     width: calc(100% - 16px);
     transition: 0.5s;
 }
@@ -66,12 +66,12 @@
     }
 
     .DJ-discover .DJ-nav .DJ-active,
-    .DJ-discover .DJ-nav .DJ-nav-item {
+    .DJ-discover .DJ-nav .DJ-navItem {
         width: max-content;
     }
 
     .DJ-discover .DJ-nav .DJ-active::before,
-    .DJ-discover .DJ-nav .DJ-nav-item:hover::before {
+    .DJ-discover .DJ-nav .DJ-navItem:hover::before {
         width: 100%;
     }
 }

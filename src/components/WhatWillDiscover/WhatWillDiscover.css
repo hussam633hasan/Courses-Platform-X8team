@@ -1,0 +1,61 @@
+.DJ-whatToDiscover h2 {
+    max-width: 300px;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.DJ-whatToDiscover p {
+    max-width: 325px;
+    font-family: Inter;
+    color: #6D6D77;
+    line-height: 1.7;
+    margin-top: 25px;
+}
+
+.DJ-whatToDiscover button {
+    border-style: none;
+    padding: 14px 32px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    margin-top: 35px;
+    transition: 0.5s;
+}
+
+.DJ-whatToDiscover button:hover {
+    background-color: transparent;
+    color: black;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.DJ-whatToDiscover .DJ-withBackground::before {
+    content: "";
+    position: absolute;
+    right: -10px;
+    bottom: -40px;
+    width: 90%;
+    height: 75%;
+    background-image: url('./../../../public/assets/images/Main_page/What Will You Discover/Ellipse gradient.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.DJ-whatToDiscover  .DJ-card {
+    height: max-content;
+    transform: translateY(80px);
+}
+
+.DJ-whatToDiscover h6 {
+    font-family: Inter;
+    font-weight: 700;
+    margin: 10px 0 20px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .DJ-whatToDiscover .DJ-withBackground::before {
+        height: 50%;
+        bottom: 70px;
+        right: 3px;
+    }
+}
