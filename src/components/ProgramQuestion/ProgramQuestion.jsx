@@ -4,8 +4,8 @@ import './ProgramQuestion.css';
 
 const ProgramQuestion= () => {
     return (
-        <div className="help-container">
-            <div className="help-content">
+        <div className="container-question">
+            <div className="content-question">
                 <h2>Can't find a suitable program?</h2>
                 <p>We will help you with the choice!</p>
                 <svg className='svg' width="130" height="35" viewBox="0 0 169 59" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -13,7 +13,7 @@ const ProgramQuestion= () => {
 </svg>
 
             </div>
-            <div className="help-form">
+            <div className="form-question">
                 <input type="text" placeholder="Name" />
                 <input type="email" placeholder="Email" />
                 <button>Help me</button>
