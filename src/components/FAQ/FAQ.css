@@ -2,8 +2,7 @@
             width: 75%;
             margin: 0 auto;
             margin-top: 50px;
-            padding-bottom: 120px;
-            padding-top: 40px;
+            padding: 120px 0px;
         }
         
         .accordion-container h1 {
@@ -15,18 +14,19 @@
         }
         
         .accordion-item {
-            font-size: 18px;
+            font-size: 20px;
             font-weight: 700;
             border-bottom: 2px solid rgba(25, 25, 28, 1);
-            height: 70px;
         }
         
         .accordion-header {
             display: flex;
             justify-content: space-between;
+            align-items: center;
             padding: 15px;
             cursor: pointer;
             background-color: #ffffff;
+            height: 90px;
         }
         
         .accordion-header:hover {
@@ -34,7 +34,7 @@
         }
         
         .icon {
-            font-size: 25px;
+            font-size: 30px;
         }
         
         @media (max-width: 1000px) {
