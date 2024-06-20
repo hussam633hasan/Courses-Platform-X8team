@@ -1,13 +1,8 @@
-* {
-  font-family: "Inter", sans-serif;
-}
-
 .content {
   background-image: url("./../../../public/assets/images/Main_page/Untitled-2.png");
   background-color: #19181d;
   background-size: cover;
   background-position: center;
-  color: #fbfbfc;
   padding: 150px 200px;
   display: flex;
   justify-content: space-between;
@@ -34,8 +29,6 @@
 
 .platformInfo p,
 .statistics p {
-  font-size: 18px;
-  font-weight: 300px;
   margin-bottom: 20px;
   color: #efeff2;
 }
@@ -103,9 +96,6 @@
     margin-bottom: 15px;
   }
 }
-
-
-
 
 @media (max-width: 650px) {
   .content {
