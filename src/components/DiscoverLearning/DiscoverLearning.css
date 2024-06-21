@@ -1,0 +1,78 @@
+.DJ-discover h2 {
+    max-width: 300px;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.DJ-discover .DJ-nav .DJ-active {
+    font-weight: 700;
+    position: relative;
+}
+
+.DJ-discover .DJ-nav .DJ-navItem {
+    position: relative;
+}
+
+.DJ-discover .DJ-active::before,
+.DJ-discover .DJ-nav .DJ-navItem:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: black;
+}
+
+.DJ-discover .DJ-nav .DJ-active::before,
+.DJ-discover .DJ-nav .DJ-navItem:hover:before {
+    width: calc(100% - 16px);
+    transition: 0.5s;
+}
+
+.DJ-discover .DJ-more {
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.DJ-discover .DJ-more .DJ-icon-right {
+    margin-left: 15px;
+    width: 20px;
+}
+
+.DJ-discover .DJ-card {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.DJ-discover .DJ-card:hover {
+    transform: translateY(-15px);
+}
+
+.DJ-discover h5 {
+    margin-top: 20px;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.DJ-discover .DJ-icon-up {
+    width: 12px;
+}
+
+@media screen and (max-width: 992px) {
+    .DJ-discover .DJ-discoverNav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    .DJ-discover .DJ-nav .DJ-active,
+    .DJ-discover .DJ-nav .DJ-navItem {
+        width: max-content;
+    }
+
+    .DJ-discover .DJ-nav .DJ-active::before,
+    .DJ-discover .DJ-nav .DJ-navItem:hover::before {
+        width: 100%;
+    }
+}
+
