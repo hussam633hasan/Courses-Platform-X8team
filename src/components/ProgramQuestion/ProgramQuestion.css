@@ -1,0 +1,117 @@
+.container-question {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 45px 25px;
+    background-color: rgba(222, 239, 228, 1);
+}
+
+.content-question {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+
+.content-question .svg {
+    position: absolute;
+    right: -100px;
+    bottom: 30px;
+}
+
+.content-question h2 {
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    width: 600px;
+}
+
+.content-question p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+.form-question {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 150px;
+}
+
+.form-question input {
+    width: 100%;
+    max-width: 550px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(222, 239, 228, 1);
+    border-bottom: 2px solid black;
+    font-size: 20px;
+}
+
+.form-question button {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+@media (max-width: 1560px) {
+    .content-question h2 {
+        font-size: 35px;
+        width: 70%
+    }
+    .content-question p {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1359px) {
+    svg {
+        width: 120px;
+        position: absolute;
+        right: -120px !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .container-question {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-question {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .form-question {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        padding-left: 0px;
+    }
+    .content-question .svg {
+        display: none;
+    }
+}
+
+@media (max-width: 390px) {
+    .content-question h2 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        width: 200px;
+    }
+}
