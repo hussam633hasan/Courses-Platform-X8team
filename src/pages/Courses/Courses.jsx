@@ -1,8 +1,6 @@
 import React from "react";
 
 function Courses() {
-    return( <>
-        </>
-        )
+  return <></>;
 }
 export default Courses;
