@@ -1,48 +1,63 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+
+import { useState } from 'react'
+import "./Navbar.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBarsStaggered, faXmark } from "@fortawesome/free-solid-svg-icons"
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Button from 'react-bootstrap/Button';
-import './Navbar.css';
+import { Link } from 'react-router-dom';
 
-export default function Navbarr() {
+
+export default function Navbar() {
+
+
+    const [ShowSidebar, setShowSidebar] = useState(true)
+    const [color, setColor] = useState(false)
+
+    function HandlShowSidebar() {
+
+        setShowSidebar(!ShowSidebar)
+    }
+
+    const changeColor = () => {
+        if (window.scrollY >= 90) {
+            setColor(true)
+        } else {
+            setColor(false)
+        }
+    }
+    window.addEventListener('scroll', changeColor)
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
-            <Container>
-                <Navbar.Brand href="#home"><img src='./public/assets/images/Nav/logo.png'/>UpDate</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto w-100" >
-                        <div className='HH-Row'>
-                            <div className='HH-Col-1'>
-                                <NavDropdown title="Courses" id="basic-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2">
-                                        Another action
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                    <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#action/3.4">
-                                        Separated link
-                                    </NavDropdown.Item>
-                                </NavDropdown>
-                                <Nav.Link href="#home" className='HH-nav-link'>Teachers</Nav.Link>
-                                <Nav.Link href="#link">Blog</Nav.Link>
-                            </div>
-                            <div className='HH-Col-2'>
-                                <NavDropdown title="En" id="basic-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1">English</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.1">French</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.1">Russian</NavDropdown.Item>
-                                </NavDropdown>
-                                <Nav.Link href="#link" className='HH-nav-link' >Sign In</Nav.Link>
-                                <Button variant="dark" className='HH-Nav-button'>Trial free</Button>
-                            </div>
-                        </div>
-                    </Nav>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
-
+        <nav className={color ? "Navbar-bg" : "HH-Nav-parent"}>
+            <div className={ShowSidebar ? "Navbar" : "sidebar"}>
+                <div className={ShowSidebar ? "logo" : "logo-sidebar"}>
+                    <Link to="/">
+                        <img src='./public/assets/images/Nav/logo.png' />
+                    </Link>
+                    <h4>UpDate</h4>
+                </div>
+                <div className={ShowSidebar ? "links" : "links-sidebar"}>
+                    <div className='HH-links-part1'>
+                        <NavDropdown title="Courses" id="basic-nav-dropdown">
+                           <Link to={'/Courses'}>Courses</Link>
+                        </NavDropdown>
+                        <a href="#Teachers">Teachers</a>
+                        <Link to={'/blog'}>Blog</Link>
+                    </div>
+                    <div className='HH-links-part2'>
+                        <NavDropdown title="En" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="#action/3.1">English</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.1">French</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.1">Russian</NavDropdown.Item>
+                        </NavDropdown>
+                        <a href="#">Sign In</a>
+                        <button className='HH-Navbar-button'>Trial free</button>
+                    </div>
+                </div>
+                <button onClick={HandlShowSidebar} className={ShowSidebar ? "icon-bars" : "Xmark-icon"}>
+                    {ShowSidebar ? <FontAwesomeIcon icon={faBarsStaggered} flip="horizontal" size="2xl" style={{ color: "#19191C", }} /> : <FontAwesomeIcon icon={faXmark} size="2xl" style={{ color: "#fff", }} />}
+                </button>
+            </div>
+        </nav>
     )
-}
+
+
