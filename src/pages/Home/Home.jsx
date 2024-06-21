@@ -3,9 +3,9 @@ import DiscoverLearning from "../../components/DiscoverLearning/DiscoverLearning
 import WhatWillDiscover from "../../components/WhatWillDiscover/WhatWillDiscover";
 
 function Home() {
-  return( <>
-  <DiscoverLearning />
-  <WhatWillDiscover />
+  return (<>
+    <DiscoverLearning />
+    <WhatWillDiscover />
   </>
   )
 }

@@ -1,0 +1,29 @@
+.DJ-text {
+    max-width: 75%;
+}
+
+h2 {
+    font-family: Inter;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    color: #6D6D77;
+}
+
+.DJ-styleImage:last-child {
+    transform: translateY(60px);
+}
+
+.DJ-styleImage {
+    overflow: hidden;
+}
+
+.DJ-styleImage:hover img {
+    transform: scale(1.1) rotate(5deg);
+    transition: 0.5s;
+}

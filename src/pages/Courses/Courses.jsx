@@ -1,8 +1,10 @@
 import React from "react";
+import ProfessionDesigner from "../../components/ProfessionDesigner/ProfessionDesigner";
 
 function Courses() {
-    return( <>
-        </>
-        )
+    return (<>
+        <ProfessionDesigner />
+    </>
+    )
 }
 export default Courses;
