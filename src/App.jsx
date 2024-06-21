@@ -7,14 +7,16 @@ import Courses from "./pages/Courses/Courses";
 import Blog from "./pages/Blog/Blog";
 import Article from "./pages/Article/Article";
 import Dashboard from "./pages/Dashboard/Dashboard";
-import Navbarr from "./components/Navbar/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Header from './components/Header/Header';
+
 
 
 function App() {
   return (
     <>
+
       <Navbar/>
       <Header/>
       <Routes>
@@ -25,6 +27,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
       <Footer />
+
     </>
   );
 }
