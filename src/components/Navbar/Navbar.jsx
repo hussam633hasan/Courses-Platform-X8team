@@ -1,3 +1,4 @@
+
 import { useState } from 'react'
 import "./Navbar.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -58,5 +59,5 @@ export default function Navbar() {
             </div>
         </nav>
     )
-}
+
 
