@@ -5,7 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 export default function WhatWillDiscover() {
   return (
     <section className='py-5 bg-light DJ-whatToDiscover'>
-      <Container className='py-5'>
+      <div className='contain'>
         <Row>
 
           {/* left side  */}
@@ -30,7 +30,7 @@ export default function WhatWillDiscover() {
           </Col>
 
         </Row>
-      </Container>
+      </div>
     </section>
   )
 }

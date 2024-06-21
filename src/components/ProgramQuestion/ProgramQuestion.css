@@ -22,7 +22,7 @@
 }
 
 .content-question h2 {
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 700;
     margin-bottom: 10px;
     width: 600px;
@@ -62,6 +62,13 @@
     width: 150px;
     margin-top: 20px;
     font-size: 20px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 5px #555555;
+}
+
+.form-question button:hover {
+    cursor: pointer;
+    scale: 1.04;
 }
 
 @media (max-width: 1560px) {

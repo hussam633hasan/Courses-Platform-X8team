@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Promotion() {
   return (
     <section className="promo">
-      <div>
+      <div className="prom">
         <div className="percentage">
           <h2>50%</h2>
           <div className="time">

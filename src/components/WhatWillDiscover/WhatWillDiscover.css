@@ -1,7 +1,12 @@
+.contain {
+    padding: 120px 200px !important;
+}
+
 .DJ-whatToDiscover h2 {
-    max-width: 300px;
+    max-width: 500px;
     font-family: Inter;
     font-weight: 700;
+    font-size: 45px;
 }
 
 .DJ-whatToDiscover p {
@@ -40,9 +45,15 @@
     background-position: center;
 }
 
-.DJ-whatToDiscover  .DJ-card {
+.DJ-whatToDiscover .DJ-card {
     height: max-content;
     transform: translateY(80px);
+    transition: 0.3s;
+}
+
+.DJ-whatToDiscover .DJ-card:hover {
+    scale: 1.02;
+    cursor: pointer;
 }
 
 .DJ-whatToDiscover h6 {
