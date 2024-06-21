@@ -1,4 +1,3 @@
-
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";
@@ -9,15 +8,11 @@ import Article from "./pages/Article/Article";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import Navbarr from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import Testimonials from "./components/StudentsSaycards/Testimonials";
-import BlackWhiteCards from "./components/Black&WhiteCards/BlackWhiteCards";
 
 function App() {
   return (
     <>
       <Navbarr />
-      <Testimonials />
-      <BlackWhiteCards />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />
