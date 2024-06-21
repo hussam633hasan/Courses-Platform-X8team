@@ -11,15 +11,17 @@ import BlackWhiteCards from "../../components/Black&WhiteCards/BlackWhiteCards";
 
 function Home() {
   return( <>
+  <ContentInfo />
   <DiscoverLearning />
   <WhatWillDiscover />
-  <ContentInfo />
+  
   <Process />
   <Promotion />
+  <Testimonials />
+  <BlackWhiteCards /> 
   <ProgramQuestion/>
   <FAQ/>
-  <Testimonials />
-  <BlackWhiteCards />       
+      
   </>
   )
 }
