@@ -9,11 +9,13 @@ import Article from "./pages/Article/Article";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import Navbarr from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <>
-      <Navbarr />
+      <Navbar/>
+      <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />

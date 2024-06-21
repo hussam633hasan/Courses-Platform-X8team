@@ -1,30 +1,309 @@
-.HH-Nav-button{
-    padding: 0px 20px 0px 20px;
-    border-radius: 0px;
+.HH-Nav-parent {
+    display: flex;
+    justify-content: center;
+    font-family: "Inter";
+
 }
-.HH-Row{
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    height: 40px;
+    position: fixed;
+    top: 35px;
+    z-index: 6;
+}
+
+.Navbar-bg{
+    background-color: #3F51B5;
+    display: flex;
+    justify-content: center;
+    font-family: "Inter";
+    width: 100%;
+    height: 76px;
+    position: fixed;
+    z-index: 999;
+}
+
+.sidebar {
+    display: none;
+    position: fixed;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background: white;
+    z-index: 999;
+}
+
+.icon-bars {
+    display: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.img-logo {
+    width: 75px;
+    margin: 0px 10px;
+}
+
+.links {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    align-items: center;
-}
-.HH-Col-1 , .HH-Col-2{
-    display: flex; 
-}
-.HH-nav-link{
-    margin: 0px 35px;
 }
 
-@media (min-width:320px) and (max-width:992px){
-    .HH-Row{
+.links a {
+    position: relative;
+    text-decoration: none;
+    margin: 0px 25px;
+    color: black;
+    filter: opacity(0.7);
+    width: max-content;
+}
+
+.links a::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #19191C;
+    transition: 0.3s;
+}
+
+.HH-Navbar-button {
+    border: none;
+    background: #19191C;
+    color: white;
+    margin-right: 15px;
+    padding: 0 15px;
+}
+
+.HH-Navbar-button:hover {
+    border: none;
+    background: #ffffff;
+    border-radius: 5px;
+    filter: drop-shadow(0px 0px 10px #19191C);
+    color: #19191C;
+}
+
+.links a:hover::before {
+    width: 100%;
+}
+
+.HH-links-part1 {
+    display: flex;
+}
+
+.HH-links-part2 {
+    display: flex;
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .Navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 40px;
+        position: fixed;
+        top: 35px;
+        z-index: 6;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .sidebar {
         display: block;
+        position: fixed;
+        right: 0px;
+        width: 300px;
+        height: 100vh;
+        background: #3F51B5;
+        z-index: 999;
+        transition: 2s;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .links-sidebar a {
+        position: relative;
+        text-decoration: none;
+        margin: 20px 10px;
+        color: black;
+        filter: opacity(0.7);
+        display: flex;
+        width: max-content;
+    }
+
+    .links-sidebar a::before {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: white;
+        transition: 0.3s;
+    }
+
+    .links-sidebar a:hover::before {
         width: 100%;
     }
 
-    .HH-Col-1 , .HH-Col-2{
-        display: block; 
+    .HH-links-part1,
+    .HH-links-part2 {
+        display: flex;
+        flex-direction: column;
     }
-    .HH-nav-link{
+
+    .icon-bars {
+        display: block;
+        margin: 0 20px;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+    }
+
+    .logo-sidebar {
+        margin: 15px 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    .Xmark-icon {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: larger;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 0 15px;
+    }
+
+    .HH-Navbar-button {
+        border: none;
+        background: #19191C;
+        color: white;
+        margin-right: 15px;
+        width: max-content;
+        padding: 0 15px;
+    }
+}
+
+
+@media (min-width:320px) and (max-width:768px) {
+    .Navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 40px;
+        position: fixed;
+        top: 35px;
+        z-index: 6;
+    }
+
+    .sidebar {
+        display: block;
+        position: fixed;
+        right: 0px;
+        width: 250px;
+        height: 100vh;
+        background: #3F51B5;
+        z-index: 999;
+        transition: 2s;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .links-sidebar a {
+        position: relative;
+        text-decoration: none;
+        margin: 20px 10px;
+        color: black;
+        filter: opacity(0.7);
+        display: flex;
+        align-items: center;
+        width: max-content;
+    }
+
+    .links-sidebar a::before {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: white;
+        transition: 0.3s;
+    }
+
+    .links-sidebar a:hover::before {
+        width: 100%;
+    }
+
+    .HH-links-part1,
+    .HH-links-part2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon-bars {
+        display: block;
+        margin: 0 20px;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+    }
+
+    .logo-sidebar {
+        margin: 15px 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    .Xmark-icon {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: larger;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 0 15px;
+    }
+
+    .HH-Navbar-button {
+        border: none;
+        background: #19191C;
+        color: white;
+        margin-right: 15px;
+        width: max-content;
         margin: 0px;
+        padding: 0 15px;
+    }
+
+    .HH-Navbar-button:hover {
+        border: none;
+        background: #ffffff;
+        border-radius: 5px;
+        filter: drop-shadow(0px 0px 10px #19191C);
+        color: #19191C;
     }
 }
