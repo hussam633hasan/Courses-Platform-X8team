@@ -10,11 +10,9 @@
     height: 309.88px;
     position: relative;
     overflow: hidden;
+    padding: 100px 200px;
 }
 
-.prom {
-    padding: 120px 200px !important;
-}
 
 .promo h2 {
     font-size: 45px;
@@ -67,7 +65,6 @@
 }
 
 .CourseLink {
-    padding-right: 100px;
     position: relative;
 }
 
