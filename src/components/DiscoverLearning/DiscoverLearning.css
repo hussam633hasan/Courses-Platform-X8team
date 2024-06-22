@@ -68,9 +68,9 @@
             padding: 50px !important;
         }
         .DJ-discover .DJ-discoverNav {
-            flex-direction: column;
+            display: flex;
             align-items: flex-start;
-            gap: 25px;
+            gap: 10px;
         }
         .DJ-discover .DJ-nav .DJ-active,
         .DJ-discover .DJ-nav .DJ-navItem {
