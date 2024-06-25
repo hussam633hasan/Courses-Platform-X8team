@@ -307,15 +307,7 @@
     
     @media (max-width: 1050px) {
         .contain-header {
-            padding: 30px;
-        }
-        .contain-header {
-            display: flex;
-            /* flex-direction: column !important; */
-            justify-content: center;
-            flex-wrap: wrap;
-            align-items: center;
-            height: 100vh;
+            padding: 100px;
         }
         .H h2 {
             font-size: 20px;
@@ -332,10 +324,51 @@
         }
     }
     
-    @media (max-width: 650px) {
+    @media (max-width: 780px) {
+        .H .DD {
+            width: 30%;
+            padding-right: 70px;
+            padding-bottom: 70px;
+        }
+        .H .DD .D {
+            width: 10%;
+        }
+        .DD .buttom {
+            width: 160px !important;
+            padding: 10px;
+            font-size: 15px;
+        }
+        .D .D1 {
+            font-size: 35px;
+        }
+        .D svg {
+            width: 40px;
+            position: absolute;
+            bottom: 20px;
+            left: 170px;
+        }
         .H h2 {
             width: 100% !important;
             font-size: 30px;
-            padding: 0px;
+            padding: 20px;
+        }
+        .colum {
+            padding-left: 180px;
+            width: 100% !important;
+            position: absolute;
+            bottom: -48px;
+            right: 0px;
+        }
+        .img-fluid {
+            margin-top: 70px;
+            width: 100% !important;
+        }
+        .row {
+            display: flex;
+            flex-direction: column !important;
+        }
+        .contain-header {
+            height: 110vh;
+            padding: 50px;
         }
     }
