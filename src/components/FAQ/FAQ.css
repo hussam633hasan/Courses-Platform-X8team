@@ -39,7 +39,7 @@
      @media (max-width: 1000px) {
          .accordion-container {
              width: 100%;
-             padding: 45px 5px;
+             padding: 45px 25px;
          }
      }
      
@@ -54,5 +54,12 @@
          }
          .accordion-content {
              padding-left: 10px;
+         }
+         .icon {
+             font-size: 20px;
+         }
+         .accordion-header {
+             display: flex;
+             align-items: center;
          }
      }
