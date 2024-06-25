@@ -1,4 +1,4 @@
-.HH-Header {
+    /* .HH-Header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,4 +188,117 @@
         position: relative;
         left: -33px;
     }
-}
+} */
+    
+    .buttom {
+        border-radius: 0;
+        font-size: 20px;
+        padding: 15px;
+        width: 250px;
+        margin-bottom: 150px;
+    }
+    
+    .H {
+        padding: 80px 0px;
+    }
+    
+    .H h2 {
+        font-size: 45px;
+        font-weight: 700;
+        width: 500px;
+    }
+    
+    .H p {
+        font-size: 25px;
+        font-weight: 300;
+        color: black;
+    }
+    
+    .H a {
+        text-decoration: none;
+    }
+    
+    .DD {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    .D {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    .D svg {
+        position: absolute;
+        bottom: 50px;
+        left: 220px;
+    }
+    
+    .D .D1 {
+        font-size: 65px;
+        font-weight: 700;
+    }
+    
+    .D .D2 {
+        font-size: 20px;
+    }
+    
+    .contain-header {
+        padding: 100px 200px;
+    }
+    
+    @media (max-width: 1400px) {
+        .H {
+            padding: 0px;
+        }
+    }
+    
+    @media (max-width: 1216px) {
+        .H h2 {
+            font-size: 25px !important;
+            font-weight: 700;
+            width: 100%;
+        }
+        .buttom {
+            border-radius: 0;
+            font-size: 20px;
+            padding: 15px;
+            width: 200px;
+            margin-bottom: 50px;
+        }
+        .D svg {
+            position: absolute;
+            bottom: 30px;
+            left: 200px;
+            width: 50px;
+        }
+        .img-fluid {
+            margin-top: 70px;
+            width: 100% !important;
+        }
+    }
+    
+    @media (max-width: 850px) {
+        .contain-header {
+            padding: 30px;
+        }
+        .H h2 {
+            font-size: 25px;
+            font-weight: 700;
+            width: 80%;
+        }
+    }
+    
+    @media (max-width: 400px) {
+        .img-fluid {
+            margin-top: 40px;
+            width: 100% !important;
+        }
+    }
