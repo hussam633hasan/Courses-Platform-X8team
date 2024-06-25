@@ -190,16 +190,24 @@
     }
 } */
     
+    header {
+        background-color: #EFEFF2;
+    }
+    
     .buttom {
         border-radius: 0;
         font-size: 20px;
         padding: 15px;
         width: 250px;
-        margin-bottom: 150px;
+        margin-bottom: 120px;
     }
     
     .H {
-        padding: 80px 0px;
+        padding: 80px 0px 0px 0px;
+        background-image: url('./public/assets/images/Hero_Images/Main page/Ellipse 20.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
     }
     
     .H h2 {
@@ -219,6 +227,7 @@
     }
     
     .DD {
+        margin-top: 70px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -252,6 +261,17 @@
     
     .contain-header {
         padding: 100px 200px;
+        position: relative;
+    }
+    
+    .colum {
+        position: absolute;
+        bottom: -50px;
+        right: 0px;
+        background-image: url('./public/assets/images/Hero_Images/Main page/Ellipse 21.png');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
     }
     
     @media (max-width: 1400px) {
@@ -285,20 +305,37 @@
         }
     }
     
-    @media (max-width: 850px) {
+    @media (max-width: 1050px) {
         .contain-header {
             padding: 30px;
         }
+        .contain-header {
+            display: flex;
+            /* flex-direction: column !important; */
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            height: 100vh;
+        }
         .H h2 {
-            font-size: 25px;
+            font-size: 20px;
             font-weight: 700;
-            width: 80%;
+            width: 100%;
         }
     }
     
-    @media (max-width: 400px) {
-        .img-fluid {
-            margin-top: 40px;
+    @media (max-width: 1190px) {
+        .H h2 {
+            width: 300% !important;
+            font-size: 30px;
+            padding: 0px;
+        }
+    }
+    
+    @media (max-width: 650px) {
+        .H h2 {
             width: 100% !important;
+            font-size: 30px;
+            padding: 0px;
         }
     }

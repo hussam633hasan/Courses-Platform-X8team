@@ -60,7 +60,7 @@ const Header= () => {
            </div>
             
           </Col>
-          <Col md={8}>
+          <Col md={8} className='colum'>
             <img src="./public/assets/images/Hero_Images/Main page/Courses and image.png" alt="Header Image" className="img-fluid" />
           </Col>
         </Row>
