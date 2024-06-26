@@ -1,0 +1,130 @@
+.cards-section {
+  border: none;
+}
+.cards-section h2 {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 1.2;
+  width: 50%;
+}
+.cards-section .more {
+  display: flex;
+  justify-content: space-between;
+}
+.cards-section .more button {
+  background-color: transparent;
+  border-color: transparent;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  font-size: 15px;
+}
+.cards-section .more button img {
+  width: 27px;
+  margin-left: 8px;
+}
+.cards-section .more p {
+  width: 50%;
+  color: #6d6d77;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  gap: 20px;
+  width: 100%;
+  padding: 20px 0;
+}
+.cards h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 26px;
+  text-align: left;
+  margin-top: 14px;
+}
+.cards p {
+  color: #6d6d77;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.cards .info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.cards .info img {
+  width: 14px;
+}
+.cards .img-size {
+  width: 100%;
+  transition: filter 0.3s ease;
+}
+.cards .img-size:hover {
+  filter: sepia(0.2) hue-rotate(150deg) saturate(5);
+  cursor: pointer;
+  transform: scale(1.01);
+}
+.person-card2,
+.person-card4 {
+  margin-top: 8%;
+}
+
+@media (max-width: 992px) {
+  .cards-section h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cards-section .more {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .cards-section .more p {
+    width: 100%;
+    color: #6d6d77;
+    text-align: center;
+  }
+  .person-card2,
+  .person-card4 {
+    margin-top: 0;
+  }
+  .person-card1,
+  .person-card2,
+  .person-card3,
+  .person-card4 {
+    width: 45%;
+  }
+}
+@media (max-width: 768px) {
+  .cards-section h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cards-section .more {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .cards-section .more p {
+    width: 100%;
+    color: #6d6d77;
+    text-align: center;
+  }
+  .person-card2,
+  .person-card4 {
+    margin-top: 0;
+  }
+  .person-card1,
+  .person-card2,
+  .person-card3,
+  .person-card4 {
+    width: 98%;
+  }
+}
