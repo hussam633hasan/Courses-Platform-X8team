@@ -190,6 +190,10 @@
     }
 } */
     
+    .h-img {
+        display: none;
+    }
+    
     header {
         background-color: #EFEFF2;
     }
@@ -244,10 +248,10 @@
         flex-wrap: wrap;
     }
     
-    .D svg {
-        position: absolute;
-        bottom: 50px;
-        left: 220px;
+    .D .svgg {
+        position: absolute !important;
+        bottom: 50px !important;
+        left: 220px !important;
     }
     
     .D .D1 {
@@ -293,7 +297,7 @@
             width: 200px;
             margin-bottom: 50px;
         }
-        .D svg {
+        .D .svgg {
             position: absolute;
             bottom: 30px;
             left: 200px;
@@ -324,7 +328,7 @@
         }
     }
     
-    @media (max-width: 780px) {
+    @media (max-width:760px) {
         .H .DD {
             width: 30%;
             padding-right: 70px;
@@ -335,40 +339,51 @@
         }
         .DD .buttom {
             width: 160px !important;
-            padding: 10px;
-            font-size: 15px;
+            padding: 10px !important;
+            font-size: 15px !important;
         }
         .D .D1 {
             font-size: 35px;
         }
-        .D svg {
-            width: 40px;
-            position: absolute;
-            bottom: 20px;
-            left: 170px;
+        .D .svgg {
+            width: 50px !important;
+            position: absolute !important;
+            bottom: 10px !important;
+            left: 170px !important;
+        }
+        .H {
+            width: 100%;
+            background-image: url('./public/assets/images/Hero_Images/Main page/Ellipse 21.png');
+            background-repeat: no-repeat;
+            background-position: left !important;
+            background-size: contain;
         }
         .H h2 {
             width: 100% !important;
             font-size: 30px;
             padding: 20px;
         }
-        .colum {
-            padding-left: 180px;
-            width: 100% !important;
-            position: absolute;
-            bottom: -48px;
-            right: 0px;
-        }
-        .img-fluid {
-            margin-top: 70px;
-            width: 100% !important;
-        }
         .row {
             display: flex;
             flex-direction: column !important;
         }
         .contain-header {
-            height: 110vh;
-            padding: 50px;
+            height: 140vh;
+            padding: 30px;
+        }
+        .h-img {
+            display: block;
+            position: absolute;
+            width: 100%;
+            position: absolute;
+            bottom: -48px;
+            right: 40px;
+            margin: auto;
+        }
+        .colum {
+            display: none;
+        }
+        .R-header {
+            margin: auto;
         }
     }
