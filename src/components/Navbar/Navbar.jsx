@@ -54,7 +54,7 @@ export default function Navbar() {
                     </div>
                 </div>
                 <button onClick={HandlShowSidebar} className={ShowSidebar ? "icon-bars" : "Xmark-icon"}>
-                    {ShowSidebar ? <FontAwesomeIcon icon={faBarsStaggered} flip="horizontal" size="2xl" style={{ color: "#19191C", }} /> : <FontAwesomeIcon icon={faXmark} size="2xl" style={{ color: "#fff", }} />}
+                    {ShowSidebar ? <FontAwesomeIcon icon={faBarsStaggered} flip="horizontal" size="2xl" style={{ color: "#19191C", }} /> : <FontAwesomeIcon icon={faXmark} size="2xl" style={{ color: "#000", }} />}
                 </button>
             </div>
         </nav>

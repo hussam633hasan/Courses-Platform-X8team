@@ -31,7 +31,7 @@ export default function DiscoverLearning() {
     ]
 
     return (
-        <Container className='py-5 DJ-discover'>
+        <div className='py-5 DJ-discover'>
             <h2>Discover Lifelong Learning</h2>
             <Navbar expand="lg DJ-discoverNav">
                 <Nav className="DJ-nav me-auto gap-3">
@@ -67,6 +67,6 @@ export default function DiscoverLearning() {
                     )
                 })}
             </Row>
-        </Container>
+        </div>
     )
 }

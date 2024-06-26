@@ -1,4 +1,4 @@
-.HH-Header {
+    /* .HH-Header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,4 +188,187 @@
         position: relative;
         left: -33px;
     }
-}
+} */
+    
+    header {
+        background-color: #EFEFF2;
+    }
+    
+    .buttom {
+        border-radius: 0;
+        font-size: 20px;
+        padding: 15px;
+        width: 250px;
+        margin-bottom: 120px;
+    }
+    
+    .H {
+        padding: 80px 0px 0px 0px;
+        background-image: url('./public/assets/images/Hero_Images/Main page/Ellipse 20.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    
+    .H h2 {
+        font-size: 45px;
+        font-weight: 700;
+        width: 500px;
+    }
+    
+    .H p {
+        font-size: 25px;
+        font-weight: 300;
+        color: black;
+    }
+    
+    .H a {
+        text-decoration: none;
+    }
+    
+    .DD {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    .D {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    .D svg {
+        position: absolute;
+        bottom: 50px;
+        left: 220px;
+    }
+    
+    .D .D1 {
+        font-size: 65px;
+        font-weight: 700;
+    }
+    
+    .D .D2 {
+        font-size: 20px;
+    }
+    
+    .contain-header {
+        padding: 100px 200px;
+        position: relative;
+    }
+    
+    .colum {
+        position: absolute;
+        bottom: -50px;
+        right: 0px;
+        background-image: url('./public/assets/images/Hero_Images/Main page/Ellipse 21.png');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+    }
+    
+    @media (max-width: 1400px) {
+        .H {
+            padding: 0px;
+        }
+    }
+    
+    @media (max-width: 1216px) {
+        .H h2 {
+            font-size: 25px !important;
+            font-weight: 700;
+            width: 100%;
+        }
+        .buttom {
+            border-radius: 0;
+            font-size: 20px;
+            padding: 15px;
+            width: 200px;
+            margin-bottom: 50px;
+        }
+        .D svg {
+            position: absolute;
+            bottom: 30px;
+            left: 200px;
+            width: 50px;
+        }
+        .img-fluid {
+            margin-top: 70px;
+            width: 100% !important;
+        }
+    }
+    
+    @media (max-width: 1050px) {
+        .contain-header {
+            padding: 100px;
+        }
+        .H h2 {
+            font-size: 20px;
+            font-weight: 700;
+            width: 100%;
+        }
+    }
+    
+    @media (max-width: 1190px) {
+        .H h2 {
+            width: 300% !important;
+            font-size: 30px;
+            padding: 0px;
+        }
+    }
+    
+    @media (max-width: 780px) {
+        .H .DD {
+            width: 30%;
+            padding-right: 70px;
+            padding-bottom: 70px;
+        }
+        .H .DD .D {
+            width: 10%;
+        }
+        .DD .buttom {
+            width: 160px !important;
+            padding: 10px;
+            font-size: 15px;
+        }
+        .D .D1 {
+            font-size: 35px;
+        }
+        .D svg {
+            width: 40px;
+            position: absolute;
+            bottom: 20px;
+            left: 170px;
+        }
+        .H h2 {
+            width: 100% !important;
+            font-size: 30px;
+            padding: 20px;
+        }
+        .colum {
+            padding-left: 180px;
+            width: 100% !important;
+            position: absolute;
+            bottom: -48px;
+            right: 0px;
+        }
+        .img-fluid {
+            margin-top: 70px;
+            width: 100% !important;
+        }
+        .row {
+            display: flex;
+            flex-direction: column !important;
+        }
+        .contain-header {
+            height: 110vh;
+            padding: 50px;
+        }
+    }
