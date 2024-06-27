@@ -1,9 +1,9 @@
 import React from "react";
 
-function Article() {
+import { Router } from "react-router-dom";
 
-    return (<>
-    </>
-    )
+function Article() {
+  return <></>;
+
 }
 export default Article;
