@@ -4,9 +4,9 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 export default function WhatWillDiscover() {
   return (
-    <section className='py-5 bg-light DJ-whatToDiscover'>
-      <Container className='py-5'>
-        <Row>
+    <section className='bg-light DJ-whatToDiscover'>
+      <div className='DJ-container'>
+        <Row className='my-5'>
 
           {/* left side  */}
           <Col md={6} className='mb-5'>
@@ -16,21 +16,21 @@ export default function WhatWillDiscover() {
           </Col>
 
           {/* right side  */}
-          <Col md={6} className='d-flex gap-3'>
+          <Col md={6} className='d-flex gap-3 mb-5'>
             <div className='p-3 bg-white DJ-card'>
-              <img className='img-fluid' src="./assets/images/Main_page/What Will You Discover/Rectangle 98.png" alt="Photo & Film image" />
+              <img className='w-100' src="./assets/images/Main_page/What Will You Discover/Rectangle 98.png" alt="Photo & Film image" />
               <h6>Photo & Film</h6>
             </div>
             <div className='position-relative pe-5 DJ-withBackground'>
-              <div className='p-3 bg-white position-relative'>
-                <img className='img-fluid' src="./assets/images/Main_page/What Will You Discover/Rectangle 99.png" alt="UI/UX Design image" />
+              <div className='p-3 bg-white DJ-card'>
+                <img className='w-100' src="./assets/images/Main_page/What Will You Discover/Rectangle 99.png" alt="UI/UX Design image" />
                 <h6>UI/UX Design</h6>
               </div>
             </div>
           </Col>
 
         </Row>
-      </Container>
+      </div>
     </section>
   )
 }

@@ -4,7 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 export default function ProfessionDesigner() {
     return (
-        <Container className='py-5'>
+        <section className='py-5 DJ-designer'>
             <Row className='py-5 DJ-title'>
 
                 {/* left side  */}
@@ -14,7 +14,7 @@ export default function ProfessionDesigner() {
                 </Col>
 
                 {/* right side  */}
-                <Col md={6} className='d-flex justify-content-around gap-1 mb-3'>
+                <Col md={6} className='d-flex justify-content-between gap-3 mb-3'>
                     <div className='DJ-positionDetails'>
                         <div className='DJ-detailTitle'>
                             <h2>5 000 $</h2>
@@ -73,6 +73,6 @@ export default function ProfessionDesigner() {
                     <p>You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma</p>
                 </div>
             </div> */}
-        </Container>
+        </section>
     )
 }

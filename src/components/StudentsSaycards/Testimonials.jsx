@@ -20,7 +20,7 @@ const testimonials = [
 
 function Testimonials() {
   return (
-    <div className="container my-5">
+    <div className="contain ">
       <div className="head">
         <h2>What our students have to say</h2>
         <div className="icons">

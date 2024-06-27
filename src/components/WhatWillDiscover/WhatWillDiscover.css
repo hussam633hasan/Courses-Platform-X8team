@@ -1,11 +1,16 @@
+.DJ-container {
+    padding: 120px 200px !important;
+}
+
 .DJ-whatToDiscover h2 {
-    max-width: 300px;
+    max-width: 500px;
     font-family: Inter;
     font-weight: 700;
+    font-size: 45px;
 }
 
 .DJ-whatToDiscover p {
-    max-width: 310px;
+    max-width: 330px;
     font-family: Inter;
     color: #6D6D77;
     line-height: 1.7;
@@ -31,18 +36,24 @@
 .DJ-whatToDiscover .DJ-withBackground::before {
     content: "";
     position: absolute;
-    right: -10px;
-    bottom: -40px;
-    width: 90%;
+    right: -15%;
+    bottom: -20%;
+    width: 100%;
     height: 75%;
     background-image: url('./../../../public/assets/images/Main_page/What Will You Discover/Ellipse gradient.png');
     background-size: cover;
     background-position: center;
 }
 
-.DJ-whatToDiscover  .DJ-card {
+.DJ-whatToDiscover .DJ-card {
     height: max-content;
     transform: translateY(80px);
+    transition: 0.5s;
+}
+
+.DJ-whatToDiscover .DJ-card:hover {
+    scale: 1.02;
+    cursor: pointer;
 }
 
 .DJ-whatToDiscover h6 {
@@ -52,10 +63,31 @@
     text-align: center;
 }
 
+@media screen and (max-width: 1200px) {
+    .DJ-container {
+        padding: 50px !important;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .DJ-whatToDiscover .DJ-withBackground::before {
         height: 50%;
-        bottom: 70px;
-        right: 3px;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .DJ-whatToDiscover .DJ-withBackground::before {
+        height: 100%;
+        bottom: -50%;
+        right: -10%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .DJ-whatToDiscover .DJ-withBackground::before {
+        bottom: -70%;
+        right: -5%;
     }
 }

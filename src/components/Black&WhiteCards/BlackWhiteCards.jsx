@@ -32,7 +32,7 @@ const person = {
 export default function Card() {
   return (
     <div className="cards-section">
-      <div className="container">
+      <div className="contain">
         <h2 className="h2">Classes Taught by Real Creators</h2>
         <div className="more">
           <p>
