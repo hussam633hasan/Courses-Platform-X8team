@@ -1,5 +1,6 @@
 
 import React from "react";
+import ProfessionDesigner from "../../components/ProfessionDesigner/ProfessionDesigner";
 
 import StudentProjects from '../../components/StudentsProjects/StudentsProjects';
 import TrainingProgram from '../../components/TrainingProgram/TrainingProgram';
@@ -9,13 +10,15 @@ import Price from "../../components/Price/Price";
 import Teachers from "../../components/Teachers/Teachers";
 
 function Courses() {
+
     return( <>
     <StudentsProjects/>
     <TrainingProgram/>
     <CoursesInfo />
     <Programs />
     <Teachers />
-    <Price />       
+    <Price />
+    <ProfessionDesigner />
         </>
         )
 

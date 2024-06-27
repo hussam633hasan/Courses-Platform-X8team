@@ -1,0 +1,89 @@
+.DJ-designer {
+    padding: 120px 200px;
+}
+
+.DJ-title h2{
+    max-width: 300px;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.DJ-title p {
+    max-width: 400px;
+    margin-top: 15px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 12px;
+    color: #6D6D77;
+}
+
+.DJ-title span {
+    display: block;
+    margin-top: -15px;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.DJ-title .DJ-positionDetails {
+    width: 200px;
+}
+
+.DJ-title .DJ-positionDetails .DJ-detailTitle {
+    padding: 15px 0;
+    border-bottom: 3px solid black;
+}
+
+.DJ-cardItem:hover {
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.DJ-cardItem h3 {
+    font-family: Inter;
+    font-weight: 700;
+    padding: 15px 0;
+    border-bottom: 3px solid black;
+}
+
+.DJ-cardItem p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.DJ-blue {
+    background-color: #DEEFE4;
+}
+
+.DJ-yellow {
+    background-color: #F3F3D7;
+}
+
+.DJ-purple {
+    background-color: #EFDEEE;
+}
+
+@media screen and (max-width: 1200px) {
+    .DJ-designer {
+        padding: 50px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .DJ-yellow {
+        transform: translateY(50px);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .DJ-yellow {
+        transform: translateY(50px);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .DJ-title h2{
+        max-width: 225px;
+        font-size: 30px;
+    }
+}
