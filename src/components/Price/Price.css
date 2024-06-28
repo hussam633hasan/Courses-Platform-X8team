@@ -5,6 +5,9 @@
   height: max-content;
   box-sizing: border-box;
 }
+.container1 {
+  padding: 100px 200px;
+}
 .price-section h2 {
   font-size: 58px;
   font-weight: 700;

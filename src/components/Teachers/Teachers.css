@@ -1,6 +1,9 @@
 .cards-section {
   border: none;
 }
+.container1 {
+  padding: 100px 200px;
+}
 .cards-section h2 {
   font-size: 58px;
   font-weight: 700;

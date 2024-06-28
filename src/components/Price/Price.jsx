@@ -40,7 +40,7 @@ const plan = {
 export default function Price() {
   return (
     <div className="price-section">
-      <div className="container">
+      <div className="container1">
         <h2>Price</h2>
         <div className="Price-cards">
           {Object.entries(plan).map(([id, plan]) => (
