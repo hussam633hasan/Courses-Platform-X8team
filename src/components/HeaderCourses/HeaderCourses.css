@@ -1,0 +1,9 @@
+.colum {
+    position: absolute;
+    bottom: -50px;
+    right: 0px;
+    background-image: url('./public/assets/images/Hero_Images/Main page/Ellipse 21.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}

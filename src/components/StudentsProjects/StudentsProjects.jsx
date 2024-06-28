@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './StudentsProjects.css';
 
-const StudentsProjects = () => {
+const Projects = () => {
   return (
 
     <div className='contain'>
@@ -52,4 +52,4 @@ const StudentsProjects = () => {
   );
 };
 
-export default StudentsProjects;
+export default Projects;
