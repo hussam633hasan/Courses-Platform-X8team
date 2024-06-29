@@ -1,12 +1,14 @@
 .R-header .p1-courses {
+    display: inline;
     border-bottom: solid 4px rgba(80, 77, 238, 1) !important;
-    width: 80px;
+    /* width: 80px; */
     padding-bottom: 0px;
     padding-top: 120px;
 }
 
 .R-header .p2-courses {
-    margin-bottom: -80px;
+    /* position: relative;
+    top: 100px; */
 }
 
 .h-img {
@@ -88,7 +90,7 @@ header {
 }
 
 .contain-header {
-    padding: 40px 200px 0px 200px;
+    padding: 100px 200px 0px 200px;
     position: relative;
 }
 
@@ -135,9 +137,6 @@ header {
 }
 
 @media (max-width: 1050px) {
-    .contain-header {
-        padding: 100px;
-    }
     .H h2 {
         font-size: 20px;
         font-weight: 700;
@@ -150,6 +149,9 @@ header {
         width: 300% !important;
         font-size: 30px;
         padding: 0px;
+    }
+    .contain-header {
+        padding: 200px 100px;
     }
 }
 
@@ -186,7 +188,6 @@ header {
     .H h2 {
         width: 100% !important;
         font-size: 30px;
-        padding: 20px;
     }
     .row {
         display: flex;
@@ -194,7 +195,7 @@ header {
     }
     .contain-header {
         height: 140vh;
-        padding: 30px;
+        padding: 200px 10px;
     }
     .h-img {
         display: block;
