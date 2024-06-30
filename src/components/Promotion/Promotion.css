@@ -1,290 +1,275 @@
 .promo {
-  background-image: url("./../../../public/assets/images/Main_page/Untitled-12.png");
-  background-color: #19181d;
-  background-size: cover;
-  background-position: center;
-  color: #fbfbfc;
-  display: Flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 309.88px;
-  position: relative;
-  overflow: hidden;
+    background-image: url("./../../../public/assets/images/Main_page/Untitled-12.png");
+    background-color: #19181d;
+    background-size: cover;
+    background-position: center;
+    color: #fbfbfc;
+    display: Flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 309.88px;
+    position: relative;
+    overflow: hidden;
+    padding: 100px 200px;
 }
 
+
 .promo h2 {
-  font-size: 45px;
-  font-weight: 700;
-  color: #fbfbfc;
+    font-size: 45px;
+    font-weight: 700;
+    color: #fbfbfc;
 }
 
 .percentage {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .time {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .time h6 {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21.78px;
-  text-align: left;
-  margin-right: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    text-align: left;
+    margin-right: 10px;
 }
 
 .time h6:last-child {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .promoDesc {
-  margin-right: 100px;
-  position: relative;
+    margin-right: 100px;
+    position: relative;
 }
 
 .promoDesc p {
-  width: 486px;
-  height: 56px;
-  font-size: 18px;
-  line-height: 20px;
-  text-align: left;
-  font-weight: 400;
-  color: #efeff2;
-  padding-top: 20px;
+    width: 486px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #efeff2;
+    padding-top: 20px;
 }
 
 .promoDesc img {
-  position: absolute;
-  top: -60px;
-  right: 80px;
+    position: absolute;
+    top: -60px;
+    right: 80px;
 }
 
 .CourseLink {
-  padding-right: 100px;
-  position: relative;
+    position: relative;
 }
 
 .CourseLink img {
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg)
-    brightness(200%) contrast(100%);
-  position: absolute;
-  top: -60px;
-  left: -180px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(200%) contrast(100%);
+    position: absolute;
+    top: -60px;
+    left: -180px;
 }
 
 .CourseLink button {
-  width: 180px;
-  height: 54px;
-  padding: 15px 25px;
-  background-color: #504dee;
-  color: white;
-  border: none;
-  font-weight: 500;
-  size: 18px;
+    width: 180px;
+    height: 54px;
+    padding: 15px 25px;
+    background-color: #504dee;
+    color: white;
+    border: none;
+    font-weight: 500;
+    size: 18px;
+    box-shadow: 0px 0px 5px #212121;
+    transition: 0.4s;
+}
+
+.CourseLink button:hover {
+    background-color: white;
+    color: #504dee;
+    scale: 1.02;
+    cursor: pointer;
 }
 
 .rectangle,
 .circle,
 .s_circle {
-  filter: brightness(200%) contrast(100%);
+    filter: brightness(200%) contrast(100%);
 }
 
 .background-shape {
-  position: absolute;
-
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: none;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
 }
 
 .rectangle {
-  background-image: url("./../../../public/assets/images/Main_page/Rectangle 166.png");
-  width: 40px;
-  height: 40px;
-  bottom: 20%;
-  right: 60px;
+    background-image: url("./../../../public/assets/images/Main_page/Rectangle 166.png");
+    width: 40px;
+    height: 40px;
+    bottom: 20%;
+    right: 60px;
 }
 
 .circle {
-  background-image: url("./../../../public/assets/images/Main_page/Ellipse 29.png");
-  width: 45px;
-  height: 45px;
-  top: 60%;
-  left: -25px;
+    background-image: url("./../../../public/assets/images/Main_page/Ellipse 29.png");
+    width: 45px;
+    height: 45px;
+    top: 60%;
+    left: -25px;
 }
 
 .s_circle {
-  background-image: url("./../../../public/assets/images/Main_page/Ellipse 30.png");
-  width: 20px;
-  height: 20px;
-  top: 30%;
-  right: 30%;
+    background-image: url("./../../../public/assets/images/Main_page/Ellipse 30.png");
+    width: 20px;
+    height: 20px;
+    top: 30%;
+    right: 30%;
 }
 
 .s_rectangular {
-  background-image: url("./../../../public/assets/images/Main_page/Rectangle 167.png");
-  width: 20px;
-  height: 20px;
-  top: 50%;
-  left: 70%;
+    background-image: url("./../../../public/assets/images/Main_page/Rectangle 167.png");
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 70%;
 }
 
 @media (max-width: 1400px) {
-  h2 {
-    font-size: 40px;
-  }
-
-  .promo {
-    flex-direction: column;
-    height: auto;
-    padding: 20px;
-    text-align: center;
-  }
-
-  .percentage {
-    padding-left: 0;
-    margin-bottom: 20px;
-  }
-
-  .promoDesc {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-
-  .promoDesc p {
-    width: 100%;
-    height: auto;
-  }
-
-  .promoDesc img {
-    display: none;
-  }
-
-  .CourseLink {
-    padding-right: 0;
-  }
-
-  .CourseLink img {
-    position: static;
-    margin: 20px auto;
-  }
-
-  .CourseLink button {
-    width: 100%;
-    max-width: 220px;
-    margin: 0 auto;
-  }
-  .background-shape {
-    display: block;
-  }
+    h2 {
+        font-size: 40px;
+    }
+    .promo {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+    .percentage {
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+    .promoDesc {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .promoDesc p {
+        width: 100%;
+        height: auto;
+    }
+    .promoDesc img {
+        display: none;
+    }
+    .CourseLink {
+        padding-right: 0;
+    }
+    .CourseLink img {
+        position: static;
+        margin: 20px auto;
+    }
+    .CourseLink button {
+        width: 100%;
+        max-width: 220px;
+        margin: 0 auto;
+    }
+    .background-shape {
+        display: block;
+    }
 }
 
 @media (max-width: 1200px) {
-  .background-shape {
-    display: block;
-  }
-
-  .promoDesc p {
-    text-align: center;
-  }
+    .background-shape {
+        display: block;
+    }
+    .promoDesc p {
+        text-align: center;
+    }
 }
 
 @media (max-width: 768px) {
-  .promo {
-    padding: 10px;
-  }
-
-  .percentage h2 {
-    font-size: 24px;
-  }
-
-  .time h6 {
-    font-size: 14px;
-  }
-
-  .promoDesc p {
-    font-size: 16px;
-    text-align: center;
-  }
-  .CourseLink img {
-    width: 50%;
-  }
-
-  .CourseLink button {
-    display: block;
-    width: 100%;
-    max-width: 150px;
-    padding: 5px 5px;
-    font-weight: 400;
-    font-size: 16px;
-    margin: 0;
-  }
-  .background-shape {
-    display: block;
-  }
-
-  .rectangle {
-    width: 30px;
-    height: 30px;
-  }
+    .promo {
+        padding: 10px;
+    }
+    .percentage h2 {
+        font-size: 24px;
+    }
+    .time h6 {
+        font-size: 14px;
+    }
+    .promoDesc p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .CourseLink img {
+        width: 50%;
+    }
+    .CourseLink button {
+        display: block;
+        width: 100%;
+        max-width: 150px;
+        padding: 5px 5px;
+        font-weight: 400;
+        font-size: 16px;
+        margin: 0;
+    }
+    .background-shape {
+        display: block;
+    }
+    .rectangle {
+        width: 30px;
+        height: 30px;
+    }
 }
+
 @media (max-width: 500px) {
-  .background-shape {
-    display: block;
-  }
-  .rectangle {
-    display: none;
-  }
+    .background-shape {
+        display: block;
+    }
+    .rectangle {
+        display: none;
+    }
 }
+
 @media (max-width: 320px) {
-  .promo {
-    padding: 10px;
-  }
-
-  .percentage h2 {
-    font-size: 20px;
-  }
-
-  .time h6 {
-    font-size: 12px;
-  }
-
-  .promoDesc p {
-    font-size: 14px;
-    width: 100%;
-    padding-top: 10px;
-  }
-
-  .promoDesc img {
-    display: none;
-  }
-
-  .CourseLink {
-    padding-right: 0;
-  }
-
-  .CourseLink img {
-    width: 30%;
-  }
-
-  .CourseLink button {
-    display: block;
-    width: 100%;
-    padding: 2px 2px;
-    font-size: 14px;
-    margin: 0;
-  }
-
-  .background-shape {
-    display: block;
-  }
-  .rectangle {
-    display: none;
-  }
+    .promo {
+        padding: 10px;
+    }
+    .percentage h2 {
+        font-size: 20px;
+    }
+    .time h6 {
+        font-size: 12px;
+    }
+    .promoDesc p {
+        font-size: 14px;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .promoDesc img {
+        display: none;
+    }
+    .CourseLink {
+        padding-right: 0;
+    }
+    .CourseLink img {
+        width: 30%;
+    }
+    .CourseLink button {
+        display: block;
+        width: 100%;
+        padding: 2px 2px;
+        font-size: 14px;
+        margin: 0;
+    }
+    .background-shape {
+        display: block;
+    }
+    .rectangle {
+        display: none;
+    }
 }

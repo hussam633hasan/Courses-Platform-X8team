@@ -1,4 +1,3 @@
-
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";
@@ -18,7 +17,7 @@ function App() {
     <>
 
       <Navbar/>
-      <Header/>
+   
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />

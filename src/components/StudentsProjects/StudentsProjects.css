@@ -1,14 +1,14 @@
 .card-text {
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .card {
-    height: 320px;
+    height: 350px;
     padding: 25px;
     border-radius: 0px;
-    width: 253px;
+    width: 250px;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -22,7 +22,7 @@
 }
 
 .card-2 {
-    height: 370px;
+    height: 400px;
 }
 
 .h2 {
@@ -37,7 +37,7 @@
 .row-contain {
     width: 100%;
     display: flex;
-    gap: 15px;
+    gap: 20px;
     flex-wrap: wrap;
     margin: auto;
     justify-content: center;
