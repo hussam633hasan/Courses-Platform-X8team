@@ -17,17 +17,19 @@ const FAQ = () => {
   };
 
   return (
-    <div className="accordion-container" id='faq'>
+
+    <div className="accordion-containerr " id='faq'>
+
       <h1>FAQ</h1>
       {faqs.map((faq, index) => (
-        <div key={index} className="accordion-item">
-          <div className="accordion-header" onClick={() => toggleFAQ(index)}>
+        <div key={index} className="accordion-i">
+          <div className="accordion-headerr" onClick={() => toggleFAQ(index)}>
             <span>{faq}</span>
             <span className='icon'>{openIndex === index ? '-' : '+'}</span>
           </div>
           {openIndex === index && (
-            <div className="accordion-content">
-              <p>Here is the detailed answer for the question: {faq}</p>
+            <div className="accordion-contentt">
+              <p>Here is the detailed answer for the question</p>
             </div>
           )}
         </div>

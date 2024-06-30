@@ -1,16 +1,16 @@
 import React from 'react'
 import "./PopularStyles.css"
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col , Row } from 'react-bootstrap'
 
 export default function PopularStyles() {
     return (
         <section className="DJ-style">
-            <div className="py-5">
+            <div className="py-5 DJ-paragraph">
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis  occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
                 <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
             </div>
             
-            <Row className='py-5'>
+            <Row>
 
                 {/* left side  */}
                 <Col md={6} className='d-flex gap-3 mb-5'>

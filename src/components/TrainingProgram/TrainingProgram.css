@@ -1,0 +1,79 @@
+.accordion-container {
+    padding: 70px 0px;
+    width: 65%;
+    margin: auto;
+}
+
+.accordion-item {
+    border-bottom: 2px solid #000000;
+}
+
+.h {
+    font-size: 40px;
+    color: #000000;
+    font-weight: bold;
+    border-bottom: 2px solid #000000 !important;
+    margin-bottom: 3px;
+    padding-bottom: 30px;
+}
+
+.accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: 0.3s ease;
+    border-bottom: 2px solid #000000 !important;
+    height: 90px;
+}
+
+.accordion-header:hover {
+    background-color: #e0e0e0;
+}
+
+.accordion-month {
+    font-size: 18px;
+    width: 100px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+}
+
+.accordion-title {
+    padding-left: 1em;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.accordion-icon {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.accordion-body {
+    padding: 2em;
+    background-color: #ffffff;
+    /* border-top: 1px solid #ccc; */
+    font-size: 20px;
+    height: 50px;
+}
+
+@media (max-width:700px) {
+    .accordion-container {
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    .accordion-title {
+        font-size: 12px;
+    }
+    .accordion-month {
+        width: 70px;
+        font-size: 10px;
+    }
+}

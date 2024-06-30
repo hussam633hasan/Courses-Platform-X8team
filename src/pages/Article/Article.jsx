@@ -2,6 +2,8 @@ import React from "react";
 import PopularStyles from "../../components/PopularStyles/PopularStyles";
 import ArticleText from "../../components/ArticleText/ArticleText";
 
+import { Router } from "react-router-dom";
+
 function Article() {
     const relevant = {
             title : "Which styles are no longer relevant",
