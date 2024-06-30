@@ -1,12 +1,9 @@
 import React from "react";
+
 import { Router } from "react-router-dom";
 
-
 function Article() {
-    return( <>
- 
-</>
-       
-        )
+  return <></>;
+
 }
 export default Article;

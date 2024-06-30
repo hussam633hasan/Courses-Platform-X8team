@@ -62,15 +62,22 @@
     .DJ-discover .DJ-icon-up {
         width: 12px;
     }
+
+    @media screen and (max-width: 1200px) {
+        .DJ-discover {
+            padding: 50px !important;
+        }
+    }
     
     @media screen and (max-width: 992px) {
         .DJ-discover {
             padding: 50px !important;
         }
+        
         .DJ-discover .DJ-discoverNav {
-            display: flex;
+            flex-direction: column;
             align-items: flex-start;
-            gap: 10px;
+            gap: 20px;
         }
         .DJ-discover .DJ-nav .DJ-active,
         .DJ-discover .DJ-nav .DJ-navItem {
@@ -82,8 +89,8 @@
         }
     }
     
-    @media(max-width:1259px) {
+    /* @media(max-width:1259px) {
         .DJ-discover {
             padding: 50px 70px!important;
         }
-    }
+    } */

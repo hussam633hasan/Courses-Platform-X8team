@@ -1,374 +1,238 @@
-    /* .HH-Header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100vh;
-    background-color: #EFEFF2;
-    padding-top: 105px;
-    font-family: "Inter";
+.R-header .p1-courses {
+    display: inline;
+    border-bottom: solid 4px rgba(80, 77, 238, 1) !important;
+    /* position: relative;
+    top: 100px; */
 }
 
-.HH-Ellipse-20 {
-    width: 655px;
-    position: absolute;
-    top: 10px;
-    z-index: 0;
-    left: -35px;
-}
 
-.HH-Header-part1 {
-    width: 450px;
+/* 
+.p2-courses {
     position: relative;
-}
-
-.HH-Header-part2 img {
-    width: 720px;
-    z-index: 1;
-    position: relative;
-    left: 55px;
-}
-
-.HH-Header-part2 button {
-    padding: 5px 10px 5px 10px;
-    border-radius: 0px;
-    border: none;
-    background-color: blue;
-    color: white;
-    margin: 10px 0px;
-}
-
-.HH-Ellipse-21 {
-    position: absolute;
     top: 140px;
-    right: 1px;
-    width: 420px;
-}
-
-.HH-Header-button {
-    margin: 25px 0px;
-    padding: 6px 16px 6px 16px;
-    background: #504DEE;
-    border: none;
-    color: white;
-}
-
-.HH-Header-button:hover {
-    background-color: #0027ff;
-    filter: drop-shadow(0px 0px 10px #0128ff);
-    border-radius: 5px;
-}
-
-.HH-Header-button:active {
-    transform: scale(0.96);
-}
-
-.HH-Vector-9 {
-    width: 50px;
-    position: absolute;
-    top: 269px;
-    left: 135px;
-    rotate: -7deg;
-}
-
-@media (min-width:992px) and (max-width:1200px) {
-    .HH-Ellipse-20 {
-        width: 490px;
-        position: absolute;
-        top: 95px;
-        z-index: 0;
-        left: -74px;
-    }
-
-    .HH-Header-part2 img {
-        width: 555px;
-        z-index: 1;
-        position: relative;
-        left: 0px;
-    }
-
-    .HH-Ellipse-21 {
-        position: absolute;
-        top: 95px;
-        right: 1px;
-        width: 358px;
-    }
-
-    .HH-Header-part1 {
-        width: 450px;
-        position: relative;
-        left: 60px;
-    }
-}
-
-@media (min-width:768px) and (max-width:992px) {
-    .HH-Ellipse-20 {
-        width: 400px;
-        position: absolute;
-        top: 114px;
-        z-index: 0;
-        left: -35px;
-    }
-
-    .HH-Header-part1 {
-        width: 325px;
-        position: relative;
-        left: 55px;
-    }
-
-    .HH-Vector-9 {
-        width: 43px;
-        position: absolute;
-        top: 250px;
-        left: 125px;
-        rotate: -7deg;
-    }
-
-    .HH-Ellipse-21 {
-        position: absolute;
-        top: 185px;
-        right: 1px;
-        width: 240px;
-    }
-
-    .HH-Header-part2 img {
-        width: 448px;
-        z-index: 1;
-        position: relative;
-        left: -5px;
-    }
-
-}
-
-@media (min-width:320px) and (max-width:768px) {
-    .HH-Ellipse-20 {
-        width: 250px;
-        position: absolute;
-        top: 60px;
-        z-index: 0;
-        left: -13px;
-    }
-
-    .HH-Header-part1 {
-        width: 300px;
-        position: relative;
-    }
-
-    .HH-Header-part1 h1 {
-        font-size: 16px;
-    }
-
-    .HH-Header-button {
-        margin: 0px 0px;
-        padding: 4px 14px 4px 14px;
-        background: #504DEE;
-        border: none;
-        color: white;
-    }
-
-    .HH-Vector-9 {
-        width: 34px;
-        position: absolute;
-        top: 122px;
-        left: 142px;
-        rotate: -2deg;
-    }
-
-    .HH-Ellipse-21 {
-        position: absolute;
-        top: 400px;
-        right: 1px;
-        width: 160px;
-    }
-
-    .HH-Header-part2 img {
-        width: 320px;
-        z-index: 1;
-        position: relative;
-        left: -33px;
-    }
 } */
-    
-    header {
-        background-color: #EFEFF2;
+
+.P-courses .p2-courses {
+    transform: translateY(100px);
+}
+
+.h-img {
+    display: none;
+}
+
+header {
+    background-color: #EFEFF2;
+}
+
+.buttom {
+    border-radius: 0;
+    font-size: 20px;
+    padding: 15px;
+    width: 250px;
+    margin-bottom: 120px;
+}
+
+.H {
+    /* padding: 80px 0px 0px 0px; */
+    background-image: url('./public/assets/images/Hero_Images/Main page/Ellipse 20.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.H h2 {
+    font-size: 40px;
+    font-weight: 700;
+    width: 500px;
+    padding-top: 100px;
+}
+
+.H p {
+    font-size: 17px;
+    font-weight: 300;
+    color: black;
+    width: 600px;
+    padding: 30px 0px;
+}
+
+.H a {
+    text-decoration: none;
+}
+
+.DD {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.D {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.D .svgg {
+    position: absolute !important;
+    bottom: 50px !important;
+    left: 210px !important;
+    width: 70px !important;
+}
+
+.D .D1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.D .D2 {
+    font-size: 18px;
+}
+
+.contain-header {
+    padding: 100px 200px 0px 200px;
+    position: relative;
+}
+
+.colum {
+    position: absolute;
+    bottom: -50px;
+    right: 0px;
+    background-image: url('./public/assets/images/Hero_Images/Main page/Ellipse 21.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+@media (max-width: 1400px) {
+    .H {
+        padding: 0px;
     }
-    
+}
+
+@media (max-width: 1300px) {
+    .P-courses .p2-courses {
+        transform: translateY(10px);
+    }
+}
+
+@media (max-width: 1400px) {
+    .H p {
+        width: 90%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1216px) {
+    .H h2 {
+        font-size: 25px !important;
+        font-weight: 700;
+        width: 100%;
+    }
     .buttom {
         border-radius: 0;
         font-size: 20px;
         padding: 15px;
-        width: 250px;
-        margin-bottom: 120px;
+        width: 200px;
+        margin-bottom: 50px;
     }
-    
-    .H {
-        padding: 80px 0px 0px 0px;
-        background-image: url('./public/assets/images/Hero_Images/Main page/Ellipse 20.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
+    .D .svgg {
+        position: absolute;
+        bottom: 30px;
+        left: 200px;
+        width: 50px;
     }
-    
-    .H h2 {
-        font-size: 45px;
-        font-weight: 700;
-        width: 500px;
-    }
-    
-    .H p {
-        font-size: 25px;
-        font-weight: 300;
-        color: black;
-    }
-    
-    .H a {
-        text-decoration: none;
-    }
-    
-    .DD {
+    .img-fluid {
         margin-top: 70px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        flex-wrap: wrap;
+        width: 100% !important;
+        height: 100%;
     }
-    
-    .D {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        flex-wrap: wrap;
-    }
-    
-    .D svg {
-        position: absolute;
-        bottom: 50px;
-        left: 220px;
-    }
-    
-    .D .D1 {
-        font-size: 65px;
-        font-weight: 700;
-    }
-    
-    .D .D2 {
+}
+
+@media (max-width: 1050px) {
+    .H h2 {
         font-size: 20px;
+        font-weight: 700;
+        width: 100%;
     }
-    
+}
+
+@media (max-width: 1190px) {
+    .H h2 {
+        width: 300% !important;
+        font-size: 30px;
+        padding: 0px;
+    }
     .contain-header {
-        padding: 100px 200px;
-        position: relative;
+        padding: 200px 100px;
     }
-    
-    .colum {
-        position: absolute;
-        bottom: -50px;
-        right: 0px;
+}
+
+@media (max-width:780px) {
+    .H h2 {
+        width: 70%;
+    }
+    .R-header h2 {
+        width: 300px !important;
+    }
+    .H .DD {
+        width: 30%;
+        padding-right: 70px;
+        padding-bottom: 70px;
+    }
+    .H .DD .D {
+        width: 10%;
+    }
+    .DD .buttom {
+        width: 160px !important;
+        padding: 10px !important;
+        font-size: 15px !important;
+    }
+    .D .D1 {
+        font-size: 35px;
+    }
+    .D .svgg {
+        width: 50px !important;
+        position: absolute !important;
+        bottom: 10px !important;
+        left: 170px !important;
+    }
+    .H {
+        width: 100%;
         background-image: url('./public/assets/images/Hero_Images/Main page/Ellipse 21.png');
         background-repeat: no-repeat;
-        background-position: right;
+        background-position: left !important;
         background-size: contain;
     }
-    
-    @media (max-width: 1400px) {
-        .H {
-            padding: 0px;
-        }
+    .R-header {
+        display: flex;
+        flex-direction: column !important;
+        position: absolute;
+        top: 20px;
     }
-    
-    @media (max-width: 1216px) {
-        .H h2 {
-            font-size: 25px !important;
-            font-weight: 700;
-            width: 100%;
-        }
-        .buttom {
-            border-radius: 0;
-            font-size: 20px;
-            padding: 15px;
-            width: 200px;
-            margin-bottom: 50px;
-        }
-        .D svg {
-            position: absolute;
-            bottom: 30px;
-            left: 200px;
-            width: 50px;
-        }
-        .img-fluid {
-            margin-top: 70px;
-            width: 100% !important;
-        }
+    .contain-header {
+        height: 140vh;
+        padding: 200px 10px;
     }
-    
-    @media (max-width: 1050px) {
-        .contain-header {
-            padding: 100px;
-        }
-        .H h2 {
-            font-size: 20px;
-            font-weight: 700;
-            width: 100%;
-        }
+    .h-img {
+        display: block;
+        position: absolute;
+        width: 100%;
+        position: absolute;
+        bottom: -48px;
+        right: 40px;
+        margin: auto;
+        margin-top: 500px !important;
     }
-    
-    @media (max-width: 1190px) {
-        .H h2 {
-            width: 300% !important;
-            font-size: 30px;
-            padding: 0px;
-        }
+    .colum {
+        display: none;
     }
-    
-    @media (max-width: 780px) {
-        .H .DD {
-            width: 30%;
-            padding-right: 70px;
-            padding-bottom: 70px;
-        }
-        .H .DD .D {
-            width: 10%;
-        }
-        .DD .buttom {
-            width: 160px !important;
-            padding: 10px;
-            font-size: 15px;
-        }
-        .D .D1 {
-            font-size: 35px;
-        }
-        .D svg {
-            width: 40px;
-            position: absolute;
-            bottom: 20px;
-            left: 170px;
-        }
-        .H h2 {
-            width: 100% !important;
-            font-size: 30px;
-            padding: 20px;
-        }
-        .colum {
-            padding-left: 180px;
-            width: 100% !important;
-            position: absolute;
-            bottom: -48px;
-            right: 0px;
-        }
-        .img-fluid {
-            margin-top: 70px;
-            width: 100% !important;
-        }
-        .row {
-            display: flex;
-            flex-direction: column !important;
-        }
-        .contain-header {
-            height: 110vh;
-            padding: 50px;
-        }
+    .R-header {
+        margin: auto;
     }
+}
