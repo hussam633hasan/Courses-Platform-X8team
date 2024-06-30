@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Cards';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './StylesTop.css'; // ملف CSS للتعديلات الإضافية
+import './StylesTop.css'; 
 
 const StylesTop  = () => {
   const styles = [
