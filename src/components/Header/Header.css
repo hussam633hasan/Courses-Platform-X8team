@@ -155,7 +155,7 @@ header {
     }
 }
 
-@media (max-width:760px) {
+@media (max-width:780px) {
     .H h2 {
         width: 70%;
     }
@@ -191,13 +191,11 @@ header {
         background-position: left !important;
         background-size: contain;
     }
-    .H h2 {
-        width: 100% !important;
-        font-size: 30px;
-    }
-    .row {
+    .R-header {
         display: flex;
         flex-direction: column !important;
+        position: absolute;
+        top: 20px;
     }
     .contain-header {
         height: 140vh;
@@ -211,6 +209,7 @@ header {
         bottom: -48px;
         right: 40px;
         margin: auto;
+        margin-top: 500px !important;
     }
     .colum {
         display: none;
