@@ -43,9 +43,12 @@ const Header= ({p1,p2,title,description,buttontext,discount,day,imagesurc}) => {
       < div className="contain-header">
         <Row className='R-header'>
           <Col md={4}>
-              
-          <p className='p1-courses'>{p1}</p>
+            <div className='P-courses'>
+            <p className='p1-courses'>{p1}</p>
             <p className='p2-courses'>{p2}</p>
+            </div>  
+         
+          
             <div className='H'>
            
             <h2>{title}</h2>

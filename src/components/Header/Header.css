@@ -1,14 +1,19 @@
 .R-header .p1-courses {
     display: inline;
     border-bottom: solid 4px rgba(80, 77, 238, 1) !important;
-    /* width: 80px; */
-    padding-bottom: 0px;
-    padding-top: 120px;
-}
-
-.R-header .p2-courses {
     /* position: relative;
     top: 100px; */
+}
+
+
+/* 
+.p2-courses {
+    position: relative;
+    top: 140px;
+} */
+
+.P-courses .p2-courses {
+    transform: translateY(100px);
 }
 
 .h-img {
@@ -107,6 +112,19 @@ header {
 @media (max-width: 1400px) {
     .H {
         padding: 0px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .P-courses .p2-courses {
+        transform: translateY(10px);
+    }
+}
+
+@media (max-width: 1400px) {
+    .H p {
+        width: 90%;
+        font-size: 20px;
     }
 }
 
