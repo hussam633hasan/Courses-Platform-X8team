@@ -156,6 +156,12 @@ header {
 }
 
 @media (max-width:760px) {
+    .H h2 {
+        width: 70%;
+    }
+    .R-header h2 {
+        width: 300px !important;
+    }
     .H .DD {
         width: 30%;
         padding-right: 70px;
