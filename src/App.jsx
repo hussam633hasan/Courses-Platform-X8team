@@ -8,7 +8,7 @@ import Article from "./pages/Article/Article";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import Header from './components/Header/Header';
+
 
 
 
@@ -17,7 +17,6 @@ function App() {
     <>
 
       <Navbar/>
-   
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />
