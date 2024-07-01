@@ -18,7 +18,7 @@ function AccordionItem({ month, title, isOpen, onClick }) {
         <div className="accor-title">{title}</div>
         <div className="accor-icon">{isOpen ? '-' : '+'}</div>
       </div>
-      {isOpen && <div className="accor-body">{title}</div>}
+      {isOpen && <div className="accor-body">Omnis voluptas assumenda est, omnis dolor repellendus</div>}
     </div>
   );
 }

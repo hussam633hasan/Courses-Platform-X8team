@@ -1,4 +1,4 @@
-import "./Teachers.css";
+ import "./Teachers.css";
 const person = {
   1: {
     id: "1",
@@ -28,8 +28,8 @@ const person = {
 };
 export default function Card() {
   return (
-    <div className="cards-section" id="Teachers">
-      <div className="container">
+    <div className="cards-section">
+      <div className="container1">
         <h2 className="h2">Teachers</h2>
         <div className="cards">
           {Object.entries(person).map(([id, person]) => (
