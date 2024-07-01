@@ -28,7 +28,7 @@ const person = {
 };
 export default function Card() {
   return (
-    <div className="cards-section">
+    <div className="cards-section" id="Teachers">
       <div className="container">
         <h2 className="h2">Teachers</h2>
         <div className="cards">
