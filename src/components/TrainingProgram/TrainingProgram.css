@@ -1,23 +1,23 @@
-.accordion-container {
+.accor-container {
     padding: 70px 0px;
     width: 65%;
     margin: auto;
 }
 
-.accordion-item {
-    border-bottom: 2px solid #000000;
+.accor-item {
+    border-bottom: 1px solid #000000;
 }
 
 .h {
     font-size: 40px;
     color: #000000;
     font-weight: bold;
-    border-bottom: 2px solid #000000 !important;
+    border-bottom: 1px solid #000000 !important;
     margin-bottom: 3px;
     padding-bottom: 30px;
 }
 
-.accordion-header {
+.accor-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,15 +25,15 @@
     cursor: pointer;
     background-color: #ffffff;
     transition: 0.3s ease;
-    border-bottom: 2px solid #000000 !important;
+    border-bottom: 1px solid #000000 !important;
     height: 90px;
 }
 
-.accordion-header:hover {
+.accor-header:hover {
     background-color: #e0e0e0;
 }
 
-.accordion-month {
+.accor-month {
     font-size: 18px;
     width: 100px;
     background-color: #000000;
@@ -42,37 +42,46 @@
     text-align: center;
 }
 
-.accordion-title {
+.accor-title {
     padding-left: 1em;
     width: 100%;
     font-weight: bold;
     font-size: 20px;
 }
 
-.accordion-icon {
+.accor-icon {
     font-size: 1.8em;
     font-weight: bold;
 }
 
-.accordion-body {
+.accor-body {
     padding: 2em;
     background-color: #ffffff;
-    /* border-top: 1px solid #ccc; */
     font-size: 20px;
     height: 50px;
 }
 
 @media (max-width:700px) {
-    .accordion-container {
+    .accor-icon {
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+    .accor-container {
         width: 100%;
+    }
+    .accor-body {
+        padding: 1em 1em 3em 1em;
+        background-color: #ffffff;
+        font-size: 13px;
+        height: 45px;
     }
 }
 
 @media (max-width:500px) {
-    .accordion-title {
+    .accor-title {
         font-size: 12px;
     }
-    .accordion-month {
+    .accor-month {
         width: 70px;
         font-size: 10px;
     }
