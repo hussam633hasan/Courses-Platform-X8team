@@ -18,8 +18,7 @@
   background-color: #19191c;
   border: none;
   color: #fbfbfc;
-  margin-right: 30px;
-  padding-top: 15px;
+  padding-top: 19px;
 }
 
 .category-Nav ul button:hover {
@@ -222,9 +221,7 @@ nav a:hover {
 }
 
 @media (max-width: 1094px) {
-  .category-Nav {
-    padding: 15px 50px;
-  }
+ئ
 
   .category-Nav ul {
     align-items: center;
@@ -255,13 +252,13 @@ nav a:hover {
   }
 }
 
-@media (max-width: 927px) {
+@media (max-width: 945px) {
   .sort-by {
     display: none;
   }
 
   .category-Nav {
-    padding: 15px 15px;
+    padding: 10px 10px;
     justify-content: center;
   }
   .blog-container {
@@ -269,17 +266,26 @@ nav a:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 772px) {
   .category-Nav ul {
     display: none;
   }
 
   .sort-by {
-    display: block;
+    display: inline-block;
   }
+
+  
+.sort-by::after {
+  position: absolute;
+  left: 70px;
+  top: 8px;
+}
+
 
   .category-Nav {
     justify-content: left;
+    padding-left: 20px;
   }
   .blog-container {
     padding: 75px 100px;
