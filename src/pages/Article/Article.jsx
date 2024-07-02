@@ -1,8 +1,6 @@
 import React from "react";
 import PopularStyles from "../../components/PopularStyles/PopularStyles";
 import ArticleText from "../../components/ArticleText/ArticleText";
-
-import { Router } from "react-router-dom";
 import StylesTop from '../../components/StylesTop/StylesTop';
 import HeaderArticle from "../../components/HeaderArticle/HeaderArticle";
 
