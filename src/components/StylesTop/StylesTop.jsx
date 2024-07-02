@@ -1,25 +1,24 @@
 import React from 'react';
 import Card from './Cards';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './StylesTop.css'; 
+import './StylesTop.css';
 
-const StylesTop  = () => {
+const StylesTop = () => {
   const styles = [
-    { image: '.././public/assets/images/Courses/Rectangle 171.png', title: '3D' },
-    { image: '.././public/assets/images/Courses/Mask group.png', title: 'Abstract' },
-    { image: '.././public/assets/images/Courses/Mask group (1).png', title: 'Vintage & Retro' },
+    { image: '../../assets/images/Article/Rectangle 171.png', title: '3D' },
+    { image: '../../assets/images/Article/Mask group.png', title: 'Abstract' },
+    { image: '../../assets/images/Article/Mask group (1).png', title: 'Vintage & Retro' },
   ];
 
   return (
-    <div className="containe text-center my-5">
+    <div className="cont-style text-center my-5">
       <h2 className="mb-5">Top 3 styles in 2022</h2>
-      <div className="row1">
+      <div className="row-style">
         {styles.map((style, index) => (
-          <Card key={index} image={style.image} title={style.title} />
+          <Card key={index} image={style.image} title={style.title} isSpecial={index === 2} />
         ))}
       </div>
     </div>
   );
 };
 
-export default StylesTop ;
+export default StylesTop;
