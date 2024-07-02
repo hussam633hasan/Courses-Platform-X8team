@@ -1,215 +1,260 @@
-.R-header .p1-courses {
-    display: inline;
-    border-bottom: solid 4px rgba(80, 77, 238, 1) !important;
-    /* width: 80px; */
-    padding-bottom: 0px;
-    padding-top: 120px;
-}
-
-.R-header .p2-courses {
-    /* position: relative;
+        .R-header .p1-courses {
+            display: inline;
+            border-bottom: solid 4px rgba(80, 77, 238, 1) !important;
+            /* position: relative;
     top: 100px; */
-}
-
-.h-img {
-    display: none;
-}
-
-header {
-    background-color: #EFEFF2;
-}
-
-.buttom {
-    border-radius: 0;
-    font-size: 20px;
-    padding: 15px;
-    width: 250px;
-    margin-bottom: 120px;
-}
-
-.H {
-    /* padding: 80px 0px 0px 0px; */
-    background-image: url('./public/assets/images/Hero_Images/Main page/Ellipse 20.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-
-.H h2 {
-    font-size: 40px;
-    font-weight: 700;
-    width: 500px;
-    padding-top: 100px;
-}
-
-.H p {
-    font-size: 17px;
-    font-weight: 300;
-    color: black;
-    width: 600px;
-    padding: 30px 0px;
-}
-
-.H a {
-    text-decoration: none;
-}
-
-.DD {
-    margin-top: 70px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding-bottom: 100px;
-}
-
-.D {
+        }
+        /* 
+.p2-courses {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-
-.D .svgg {
-    position: absolute !important;
-    bottom: 50px !important;
-    left: 210px !important;
-    width: 70px !important;
-}
-
-.D .D1 {
-    font-size: 55px;
-    font-weight: 700;
-}
-
-.D .D2 {
-    font-size: 18px;
-}
-
-.contain-header {
-    padding: 100px 200px 0px 200px;
-    position: relative;
-}
-
-.colum {
-    position: absolute;
-    bottom: -50px;
-    right: 0px;
-    background-image: url('./public/assets/images/Hero_Images/Main page/Ellipse 21.png');
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-}
-
-@media (max-width: 1400px) {
-    .H {
-        padding: 0px;
-    }
-}
-
-@media (max-width: 1216px) {
-    .H h2 {
-        font-size: 25px !important;
-        font-weight: 700;
-        width: 100%;
-    }
-    .buttom {
-        border-radius: 0;
-        font-size: 20px;
-        padding: 15px;
-        width: 200px;
-        margin-bottom: 50px;
-    }
-    .D .svgg {
-        position: absolute;
-        bottom: 30px;
-        left: 200px;
-        width: 50px;
-    }
-    .img-fluid {
-        margin-top: 70px;
-        width: 100% !important;
-        height: 100%;
-    }
-}
-
-@media (max-width: 1050px) {
-    .H h2 {
-        font-size: 20px;
-        font-weight: 700;
-        width: 100%;
-    }
-}
-
-@media (max-width: 1190px) {
-    .H h2 {
-        width: 300% !important;
-        font-size: 30px;
-        padding: 0px;
-    }
-    .contain-header {
-        padding: 200px 100px;
-    }
-}
-
-@media (max-width:760px) {
-    .H .DD {
-        width: 30%;
-        padding-right: 70px;
-        padding-bottom: 70px;
-    }
-    .H .DD .D {
-        width: 10%;
-    }
-    .DD .buttom {
-        width: 160px !important;
-        padding: 10px !important;
-        font-size: 15px !important;
-    }
-    .D .D1 {
-        font-size: 35px;
-    }
-    .D .svgg {
-        width: 50px !important;
-        position: absolute !important;
-        bottom: 10px !important;
-        left: 170px !important;
-    }
-    .H {
-        width: 100%;
-        background-image: url('./public/assets/images/Hero_Images/Main page/Ellipse 21.png');
-        background-repeat: no-repeat;
-        background-position: left !important;
-        background-size: contain;
-    }
-    .H h2 {
-        width: 100% !important;
-        font-size: 30px;
-    }
-    .row {
-        display: flex;
-        flex-direction: column !important;
-    }
-    .contain-header {
-        height: 140vh;
-        padding: 200px 10px;
-    }
-    .h-img {
-        display: block;
-        position: absolute;
-        width: 100%;
-        position: absolute;
-        bottom: -48px;
-        right: 40px;
-        margin: auto;
-    }
-    .colum {
-        display: none;
-    }
-    .R-header {
-        margin: auto;
-    }
-}
+    top: 140px;
+} */
+        
+        .P-courses .p2-courses {
+            transform: translateY(100px);
+        }
+        
+        .h-img {
+            display: none;
+        }
+        
+        header {
+            background-color: #EFEFF2;
+        }
+        
+        .buttom {
+            border-radius: 0;
+            font-size: 20px;
+            padding: 15px;
+            width: 250px;
+            margin-bottom: 120px;
+        }
+        
+        .H {
+            /* padding: 80px 0px 0px 0px; */
+            background-image: url('./public/assets/images/Hero_Images/Main page/Ellipse 20.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        
+        .H h2 {
+            font-size: 40px;
+            font-weight: 700;
+            width: 500px;
+            padding-top: 100px;
+        }
+        
+        .H p {
+            font-size: 17px;
+            font-weight: 300;
+            color: black;
+            width: 600px;
+            padding: 30px 0px;
+        }
+        
+        .H a {
+            text-decoration: none;
+        }
+        
+        .DD {
+            margin-top: 70px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            padding-bottom: 100px;
+        }
+        
+        .D {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        
+        .D .svgg {
+            position: absolute !important;
+            bottom: 50px !important;
+            left: 210px !important;
+            width: 70px !important;
+        }
+        
+        .D .D1 {
+            font-size: 55px;
+            font-weight: 700;
+        }
+        
+        .D .D2 {
+            font-size: 18px;
+        }
+        
+        .contain-header {
+            padding: 100px 200px 0px 200px;
+            position: relative;
+        }
+        
+        .colum {
+            position: absolute;
+            bottom: -50px;
+            right: 0px;
+            background-image: url('./public/assets/images/Hero_Images/Main page/Ellipse 21.png');
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: contain;
+        }
+        
+        @media (max-width: 1400px) {
+            .H {
+                padding: 0px;
+            }
+        }
+        
+        @media (max-width: 1300px) {
+            .P-courses .p2-courses {
+                transform: translateY(10px);
+            }
+        }
+        
+        @media (max-width: 1400px) {
+            .H p {
+                width: 90%;
+                font-size: 20px;
+            }
+        }
+        
+        @media (max-width: 1216px) {
+            .H h2 {
+                font-size: 25px !important;
+                font-weight: 700;
+                width: 100%;
+            }
+            .H p {
+                font-size: 17px;
+                font-weight: 300;
+                color: black;
+                padding: 30px 30px 30px 10px;
+                width: 100% !important;
+            }
+            .buttom {
+                border-radius: 0;
+                font-size: 20px;
+                padding: 15px;
+                width: 200px;
+                margin-bottom: 50px;
+            }
+            .D .svgg {
+                position: absolute;
+                bottom: 30px;
+                left: 200px;
+                width: 50px;
+            }
+            .img-fluid {
+                margin-top: 70px;
+                width: 100% !important;
+                height: 100%;
+            }
+            .R-header {
+                width: 100% !important;
+            }
+        }
+        
+        @media (max-width: 1050px) {
+            .H h2 {
+                font-size: 20px;
+                font-weight: 700;
+                width: 100%;
+            }
+        }
+        
+        @media (max-width: 1190px) {
+            .H h2 {
+                width: 300% !important;
+                font-size: 30px;
+                padding: 0px;
+            }
+            .contain-header {
+                padding: 200px 100px;
+            }
+        }
+        
+        @media (max-width:780px) {
+            .H h2 {
+                width: 70%;
+            }
+            .R-header h2 {
+                width: 300px !important;
+            }
+            .H .DD {
+                width: 30%;
+                padding-right: 70px;
+                padding-bottom: 70px;
+            }
+            .H .DD .D {
+                width: 10%;
+            }
+            .DD .buttom {
+                width: 160px !important;
+                padding: 10px !important;
+                font-size: 15px !important;
+            }
+            .D .D1 {
+                font-size: 35px;
+            }
+            .D .svgg {
+                width: 50px !important;
+                position: absolute !important;
+                bottom: 10px !important;
+                left: 130px !important;
+            }
+            .H {
+                width: 100%;
+                background-image: url('./public/assets/images/Hero_Images/Main page/Ellipse 21.png');
+                background-repeat: no-repeat;
+                background-position: left !important;
+                background-size: contain;
+            }
+            .R-header {
+                display: flex;
+                flex-direction: column !important;
+                position: absolute;
+                top: 20px;
+            }
+            .contain-header {
+                height: 140vh;
+                padding: 200px 10px;
+            }
+            .h-img {
+                display: block;
+                position: absolute;
+                width: 100%;
+                position: absolute;
+                bottom: -48px;
+                right: -40px;
+                margin: auto;
+                margin-top: 500px !important;
+            }
+            .colum {
+                display: none;
+            }
+            .R-header {
+                margin: auto;
+            }
+        }
+        
+        @media (max-width:771px) {
+            .H p {
+                width: 100%;
+                font-size: 20px;
+            }
+        }
+        
+        @media (max-width:771px) {
+            .H p {
+                width: 100%;
+                font-size: 20px;
+            }
+        }

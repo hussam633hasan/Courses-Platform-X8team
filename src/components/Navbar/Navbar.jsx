@@ -38,7 +38,7 @@ export default function Navbar() {
                 <div className={ShowSidebar ? "links" : "links-sidebar"}>
                     <div className='HH-links-part1'>
                         <NavDropdown title="Courses" id="basic-nav-dropdown">
-                           <Link to={'/Courses'}>Courses</Link>
+                           <Link to={'/courses'}>Courses</Link>
                         </NavDropdown>
                         <a href="#Teachers">Teachers</a>
                         <Link to={'/blog'}>Blog</Link>

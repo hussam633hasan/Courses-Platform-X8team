@@ -12,13 +12,13 @@ const trainingData = [
 
 function AccordionItem({ month, title, isOpen, onClick }) {
   return (
-    <div className="accordion-item">
-      <div className="accordion-header" onClick={onClick}>
-        <div className="accordion-month">{month}</div>
-        <div className="accordion-title">{title}</div>
-        <div className="accordion-icon">{isOpen ? '-' : '+'}</div>
+    <div className="accor-item">
+      <div className="accor-header" onClick={onClick}>
+        <div className="accor-month">{month}</div>
+        <div className="accor-title">{title}</div>
+        <div className="accor-icon">{isOpen ? '-' : '+'}</div>
       </div>
-      {isOpen && <div className="accordion-body">{title}</div>}
+      {isOpen && <div className="accor-body">Omnis voluptas assumenda est, omnis dolor repellendus</div>}
     </div>
   );
 }
@@ -31,7 +31,7 @@ function TrainingProgram() {
   };
 
   return (
-    <div className="accordion-container">
+    <div className="accor-container">
       <h2 className='h'>Training program</h2>
       {trainingData.map((item, index) => (
         <AccordionItem
