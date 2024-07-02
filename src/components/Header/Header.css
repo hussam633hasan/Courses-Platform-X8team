@@ -131,12 +131,13 @@
                 font-size: 25px !important;
                 font-weight: 700;
                 width: 100%;
+                padding: 10px !important;
             }
             .H p {
                 font-size: 17px;
                 font-weight: 300;
                 color: black;
-                padding: 30px 30px 30px 10px;
+                padding: 10px 30px 10px 10px !important;
                 width: 100% !important;
             }
             .buttom {
@@ -173,8 +174,8 @@
         @media (max-width: 1190px) {
             .H h2 {
                 width: 300% !important;
-                font-size: 30px;
-                padding: 0px;
+                font-size: 30px !important;
+                text-align: start;
             }
             .contain-header {
                 padding: 200px 100px;
@@ -233,7 +234,7 @@
                 width: 100%;
                 position: absolute;
                 bottom: -48px;
-                right: -40px;
+                right: -80px;
                 margin: auto;
                 margin-top: 500px !important;
             }
@@ -256,5 +257,21 @@
             .H p {
                 width: 100%;
                 font-size: 20px;
+            }
+        }
+        
+        @media (max-width:440px) {
+            .R-header {
+                padding-top: 50px;
+            }
+            .h-img {
+                display: block;
+                position: absolute;
+                width: 100%;
+                position: absolute;
+                bottom: -48px;
+                right: -30px;
+                margin: auto;
+                margin-top: 500px !important;
             }
         }
