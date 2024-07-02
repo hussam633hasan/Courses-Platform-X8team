@@ -5,6 +5,11 @@
     width: 95%;
     height: 450px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.card-img-top:hover {
+    scale: 1.03;
 }
 
 .special-card {
@@ -14,6 +19,7 @@
 .card-img-top {
     height: 75%;
     object-fit: cover;
+    transition: 0.4s;
 }
 
 .cont-style {

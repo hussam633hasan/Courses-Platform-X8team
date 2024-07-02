@@ -4,9 +4,9 @@ import './StylesTop.css';
 
 const StylesTop = () => {
   const styles = [
-    { image: '../../assets/images/Article/Rectangle 171.png', title: '3D' },
-    { image: '../../assets/images/Article/Mask group.png', title: 'Abstract' },
-    { image: '../../assets/images/Article/Mask group (1).png', title: 'Vintage & Retro' },
+    { image: './assets/images/Article/Rectangle 171.png', title: '3D' },
+    { image: './assets/images/Article/Mask group.png', title: 'Abstract' },
+    { image: './assets/images/Article/Mask group (1).png', title: 'Vintage & Retro' },
   ];
 
   return (
