@@ -20,39 +20,39 @@ const testimonials = [
 
 function Testimonials() {
   return (
-    <div className="contain ">
-      <div className="head">
+    <div className="container-ko">
+      <div className="head-ko">
         <h2>What our students have to say</h2>
-        <div className="icons">
+        <div className="icons-ko">
           <img
             src="../../../public/assets/images/Main_page/IconArowLeft.png"
             alt="Error"
-            className="arrow"
+            className="arrow-ko"
           />
           <img
             src="../../../public/assets/images/Main_page/IconArowRight.png"
             alt="Error"
-            className="arrow"
+            className="arrow-ko"
           />
         </div>
       </div>
       <div className="row">
         {testimonials.map((testimonial) => (
           <div key={testimonial.id} className="col-md-6 mb-4">
-            <div className="testimonial-card">
-              <div className="studentsInfoHeader">
+            <div className="testimonial-card-ko">
+              <div className="studentsInfoHeader-ko">
                 <img
                   src={testimonial.image}
                   alt={testimonial.name}
-                  className="testimonial-image"
+                  className="testimonial-image-ko"
                 />
-                <div className="studentInfo">
-                  <h3>{testimonial.name}</h3>
-                  <p className="testimonial-role">{testimonial.role}</p>
+                <div className="studentInfo-ko">
+                  <h3 className="h3-ko">{testimonial.name}</h3>
+                  <p className="testimonial-role-ko">{testimonial.role}</p>
                 </div>
               </div>
-              <div className="testimonial-content">
-                <p className="testimonial-text">{testimonial.text}</p>
+              <div className="testimonial-content-ko">
+                <p className="testimonial-text-ko">{testimonial.text}</p>
               </div>
             </div>
           </div>

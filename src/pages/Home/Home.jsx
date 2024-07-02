@@ -1,4 +1,4 @@
-
+import HeaderHome from "./../../components/HeaderHome/HeaderHome";
 import DiscoverLearning from "../../components/DiscoverLearning/DiscoverLearning";
 import WhatWillDiscover from "../../components/WhatWillDiscover/WhatWillDiscover";
 import ContentInfo from "./../../components/ContentInfo/ContentInfo.jsx";
@@ -11,6 +11,7 @@ import BlackWhiteCards from "../../components/Black&WhiteCards/BlackWhiteCards";
 
 function Home() {
   return( <>
+  <HeaderHome/>
   <ContentInfo />
   <DiscoverLearning />
   <WhatWillDiscover />

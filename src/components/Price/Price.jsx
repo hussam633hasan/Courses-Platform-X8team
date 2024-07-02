@@ -39,14 +39,14 @@ const plan = {
 
 export default function Price() {
   return (
-    <div className="price-section">
-      <div className="container1">
-        <h2>Price</h2>
-        <div className="Price-cards">
+    <div className="price-section-kd">
+      <div className="container1-kd">
+        <h2 className="h2-kd">Price</h2>
+        <div className="Price-cards-kd">
           {Object.entries(plan).map(([id, plan]) => (
-            <div className={`price-card${id}`} key={id}>
-              <div className="card-info">
-                <h3>{plan.type}</h3>
+            <div className={`price-card-kd${id}`} key={id}>
+              <div className="card-info-kd">
+                <h3 className="h3-kd">{plan.type}</h3>
                 <ul>
                   <li>{plan.info_1}</li>
                   <li>{plan.info_2}</li>
@@ -55,10 +55,10 @@ export default function Price() {
                   <li className="x">{plan.info_5}</li>
                 </ul>
               </div>
-              <div className="card-foot">
-                <p className="price1">{plan.price_1}</p>
-                <p className="descount">{plan.Price_descount}</p>
-                <button>{plan.button}</button>
+              <div className="card-foot-kd">
+                <p className="price1-kd">{plan.price_1}</p>
+                <p className="descount-kd">{plan.Price_descount}</p>
+                <button className="button-kd">{plan.button}</button>
               </div>
             </div>
           ))}

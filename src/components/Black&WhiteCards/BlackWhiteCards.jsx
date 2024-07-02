@@ -1,5 +1,5 @@
 import "./BlackWhiteCards.css";
-const person = {
+const person_kt = {
   1: {
     id: "1",
     name: "Jessica Hische",
@@ -31,32 +31,36 @@ const person = {
 };
 export default function Card() {
   return (
-    <div className="cards-section">
-      <div className="contain">
-        <h2 className="h2">Classes Taught by Real Creators</h2>
-        <div className="more">
+    <div className="cards-section-kt">
+      <div className="container-kt">
+        <h2 className="h2-kt">Classes Taught by Real Creators</h2>
+        <div className="more-kt">
           <p>
             Lorem teachers are icons, experts, and industry rock stars excited
             to share their experience, wisdom, and trusted tools with you
           </p>
-          <button>
+          <button className="button-kt">
             see more{" "}
             <img
               src="../../../public/assets/images/Main_page/Classes Taught by Real Creators/arrow_right.svg"
-              alt="arrow"
+              alt="arrow-kt"
             />
           </button>
         </div>
-        <div className="cards">
-          {Object.entries(person).map(([id, person]) => (
-            <div className={`person-card${id}`} key={id}>
-              <img className="img-size" src={person.Image} alt={person.name} />
-              <h3 className="h3">{person.name}</h3>
-              <div className="info">
-                <p className="p">{person.description}</p>
+        <div className="cards-kt">
+          {Object.entries(person_kt).map(([id, person_kt]) => (
+            <div className={`person-card-kt${id}`} key={id}>
+              <img
+                className="img-size-kt"
+                src={person_kt.Image}
+                alt={person_kt.name}
+              />
+              <h3 className="h3-kt">{person_kt.name}</h3>
+              <div className="info-kt">
+                <p className="p-kt">{person_kt.description}</p>
                 <img
                   src="../../../public/assets/images/Main_page/Classes Taught by Real Creators/ArrowRotate.svg"
-                  alt="arrow"
+                  alt="arrow-kt"
                 />
               </div>
             </div>
