@@ -1,6 +1,6 @@
 import React from 'react'
 import "./DiscoverLearning.css"
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col , Row } from 'react-bootstrap'
 import { Navbar } from 'react-bootstrap'
 import { Nav } from 'react-bootstrap'
 
@@ -49,7 +49,7 @@ export default function DiscoverLearning() {
             </Navbar>
 
             {/* adding cards  */}
-            <Row className='my-5'>
+            <Row className='mt-5'>
                 {learningCards.map((learningCard, index) => {
                     return (
                         <Col key={index} md="6" lg="3" className='d-flex justify-content-center mb-3'>
