@@ -4,6 +4,7 @@ import ArticleText from "../../components/ArticleText/ArticleText";
 
 import { Router } from "react-router-dom";
 import StylesTop from '../../components/StylesTop/StylesTop';
+import HeaderArticle from "../../components/HeaderArticle/HeaderArticle";
 
 
 function Article() {
@@ -21,9 +22,10 @@ function Article() {
         }
 
     return (<>
+        <HeaderArticle/>
         <PopularStyles />
-        <StylesTop />
         <ArticleText prop={relevant} />
+        <StylesTop />
         <ArticleText prop={toFollow} />
     </>
     )
