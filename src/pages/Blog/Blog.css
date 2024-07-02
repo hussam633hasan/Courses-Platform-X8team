@@ -4,6 +4,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 100px;
+  position: relative;
+  top: 75px;
+  margin-bottom: 35px;
 }
 
 .category-Nav ul {
