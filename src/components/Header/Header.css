@@ -260,8 +260,18 @@
             }
         }
         
-        @media (max-width:400px) {
+        @media (max-width:440px) {
             .R-header {
                 padding-top: 50px;
+            }
+            .h-img {
+                display: block;
+                position: absolute;
+                width: 100%;
+                position: absolute;
+                bottom: -48px;
+                right: -30px;
+                margin: auto;
+                margin-top: 500px !important;
             }
         }
