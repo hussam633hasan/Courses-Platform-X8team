@@ -1,5 +1,5 @@
-.DJ-container {
-    padding: 120px 200px !important;
+.DJ-whatToDiscover .DJ-container {
+    padding: 100px 200px;
 }
 
 .DJ-whatToDiscover h2 {
@@ -64,8 +64,8 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .DJ-container {
-        padding: 50px !important;
+    .DJ-whatToDiscover .DJ-container {
+        padding: 50px;
     }
 }
 

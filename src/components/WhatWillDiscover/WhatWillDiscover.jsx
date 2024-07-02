@@ -1,12 +1,12 @@
 import React from 'react'
 import "./WhatWillDiscover.css"
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col , Row } from 'react-bootstrap'
 
 export default function WhatWillDiscover() {
   return (
     <section className='bg-light DJ-whatToDiscover'>
       <div className='DJ-container'>
-        <Row className='my-5'>
+        <Row className='py-5'>
 
           {/* left side  */}
           <Col md={6} className='mb-5'>
