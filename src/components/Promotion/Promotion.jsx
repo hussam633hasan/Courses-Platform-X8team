@@ -19,13 +19,13 @@ function Promotion() {
         tempora incidunt
       </p>
       <img
-        src="./../../../public/assets/images/Main_page/Ellipse 30.png"
+        src="./assets/images/Main_page/Ellipse 30.png"
         alt="vector"
       ></img>
     </div>
     <div className="CourseLink">
       <img
-        src="./../../../public/assets/images/Main_page/Vector 11.png"
+        src="./assets/images/Main_page/Vector 11.png"
         alt="vector"
       ></img>
       <Link to="/courses">
