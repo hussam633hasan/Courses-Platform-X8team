@@ -3,26 +3,26 @@ const person = {
   1: {
     id: "1",
     name: "Eleanor Pena",
-    Image: "../../../public/assets/images/Courses/Teachers/Eleanor Pena.png",
+    Image: "./assets/images/Courses/Teachers/Eleanor Pena.png",
     description: "UI Designer",
   },
   2: {
     id: "2",
     name: "Cameron Williamson",
     Image:
-      "../../../public/assets/images/Courses/Teachers/Cameron Williamson.png",
+      "./assets/images/Courses/Teachers/Cameron Williamson.png",
     description: "UX/UI Designer",
   },
   3: {
     id: "3",
     name: "Floyd Miles",
-    Image: "../../../public/assets/images/Courses/Teachers/Floyd Miles.png",
+    Image: "./assets/images/Courses/Teachers/Floyd Miles.png",
     description: "UX Designer",
   },
   4: {
     id: "4",
     name: "Kristin Watson",
-    Image: "../../../public/assets/images/Courses/Teachers/Kristin Watson.png",
+    Image: "./assets/images/Courses/Teachers/Kristin Watson.png",
     description: "UX/UI Designer",
   },
 };
@@ -39,7 +39,7 @@ export default function Card() {
               <div className="info">
                 <p className="p">{person.description}</p>
                 <img
-                  src="../../../public/assets/images/Main_page/Classes Taught by Real Creators/ArrowRotate.svg"
+                  src="./assets/images/Main_page/Classes Taught by Real Creators/ArrowRotate.svg"
                   alt="arrow"
                 />
               </div>

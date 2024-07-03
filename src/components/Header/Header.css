@@ -32,7 +32,7 @@
         
         .H {
             /* padding: 80px 0px 0px 0px; */
-            background-image: url('./public/assets/images/Hero_Images/Main page/Ellipse 20.png');
+            background-image: url('./assets/images/Hero_Images/Main page/Ellipse 20.png');
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
@@ -101,7 +101,7 @@
             position: absolute;
             bottom: -50px;
             right: 0px;
-            background-image: url('./public/assets/images/Hero_Images/Main page/Ellipse 21.png');
+            background-image: url('./assets/images/Hero_Images/Main page/Ellipse 21.png');
             background-repeat: no-repeat;
             background-position: right;
             background-size: contain;
@@ -213,7 +213,7 @@
             }
             .H {
                 width: 100%;
-                background-image: url('./public/assets/images/Hero_Images/Main page/Ellipse 21.png');
+                background-image: url('./assets/images/Hero_Images/Main page/Ellipse 21.png');
                 background-repeat: no-repeat;
                 background-position: left !important;
                 background-size: contain;

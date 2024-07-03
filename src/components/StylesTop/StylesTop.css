@@ -24,6 +24,11 @@
 
 .cont-style {
     padding: 100px 200px;
+    background-color: #EFEFF2;
+    background-image: url('./assets/images/Hero_Images/Main page/Ellipse 20.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .row-style {
