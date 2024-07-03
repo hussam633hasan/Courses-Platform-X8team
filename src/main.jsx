@@ -7,7 +7,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Courses-Platform-X8team">
       <App />
     </BrowserRouter>
   </React.StrictMode>
