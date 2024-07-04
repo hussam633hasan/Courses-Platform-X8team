@@ -234,16 +234,14 @@
                 width: 100%;
                 position: absolute;
                 bottom: -48px;
-                right: -80px;
+                right: 0px;
                 margin: auto;
                 margin-top: 500px !important;
             }
             .colum {
                 display: none;
             }
-            .R-header {
-                margin: auto;
-            }
+            
         }
         
         @media (max-width:771px) {
@@ -270,7 +268,7 @@
                 width: 100%;
                 position: absolute;
                 bottom: -48px;
-                right: -30px;
+                right: 0px;
                 margin: auto;
                 margin-top: 500px !important;
             }

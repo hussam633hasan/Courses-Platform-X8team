@@ -172,7 +172,7 @@ function Blog() {
         ))}
       </section>
       <section className="pages">
-      <nav>
+      <nav className="Number-Nav">
         <a href="#">&larr;</a>
         <a href="#">1</a>
         <a href="#">2</a>
