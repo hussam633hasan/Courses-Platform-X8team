@@ -4,7 +4,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import './Header.css'; 
 
 
-const Header= ({p1,p2,title,description,buttontext,discount,day,imagesurc}) => {
+const Header= ({p1,p2,title,description,linkk,buttontext,discount,day,imagesurc}) => {
   return (
     <header className="bg-light py-5">
       < div className="contain-header">
@@ -19,7 +19,8 @@ const Header= ({p1,p2,title,description,buttontext,discount,day,imagesurc}) => {
             <div className='H'>
            
             <h2>{title}</h2>
-            <p>{description}</p>
+            <p>{description}<a className='linkk'>{linkk}</a></p>
+            
             </div>
            <div className='DD'>
            <Button variant="primary buttom">{buttontext}</Button>

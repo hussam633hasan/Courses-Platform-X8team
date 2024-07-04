@@ -107,6 +107,12 @@
             background-size: contain;
         }
         
+        .linkk {
+            color: blue !important;
+            cursor: pointer !important;
+            margin-left: 5px;
+        }
+        
         @media (max-width: 1400px) {
             .H {
                 padding: 0px;
@@ -260,10 +266,10 @@
         @media (max-width:440px) {
             .H p {
                 width: 100%;
-                font-size: 16px;
+                font-size: 12px;
             }
             .contain-header {
-                height: 130vh;
+                height: 110vh;
                 padding: 100px 10px;
             }
             .R-header {
@@ -273,7 +279,6 @@
             }
             .h-img {
                 display: block;
-                position: absolute;
                 width: 100%;
                 position: absolute;
                 bottom: -48px;
