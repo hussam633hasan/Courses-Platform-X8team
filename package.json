@@ -22,7 +22,6 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@mui/material": "^5.15.20",
     "bootstrap": "^5.3.3",
-    "courses-platform-x8team": "github:hussam633hasan/Courses-Platform-X8team",
     "formik": "^2.4.6",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
