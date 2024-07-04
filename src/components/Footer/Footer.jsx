@@ -40,7 +40,9 @@ function Footer() {
   const information = [
     { text: 'Blog', link: '/blog' },
     { text: 'About Us' },
-    { text: 'FAQ', link: '#faq' }
+    { text: 'FAQ', link: '#faq' },
+    { text: 'Dashboard', link: '/dashboard' }
+
   ];
 
   const languages = [
