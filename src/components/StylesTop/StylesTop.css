@@ -1,11 +1,12 @@
 .card {
     border: 1px solid #ccc;
-    padding: 20px;
+    padding: 30px;
     margin: 10px;
-    width: 95%;
+    width: 90%;
     height: 450px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    border-radius: 0;
 }
 
 .card-img-top:hover {
@@ -14,12 +15,14 @@
 
 .special-card {
     height: 520px;
+    border-radius: 0;
 }
 
 .card-img-top {
-    height: 75%;
+    height: 80%;
     object-fit: cover;
     transition: 0.4s;
+    border-radius: 0;
 }
 
 .cont-style {
@@ -38,7 +41,7 @@
     gap: 10px;
 }
 
-h2 {
+.h2-style {
     font-size: 45px;
     font-weight: 700;
     width: 100%;

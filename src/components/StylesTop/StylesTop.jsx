@@ -11,7 +11,7 @@ const StylesTop = () => {
 
   return (
     <div className="cont-style text-center my-5">
-      <h2 className="mb-5">Top 3 styles in 2022</h2>
+      <h2 className="mb-5 h2-style">Top 3 styles in 2022</h2>
       <div className="row-style">
         {styles.map((style, index) => (
           <Card key={index} image={style.image} title={style.title} isSpecial={index === 2} />
