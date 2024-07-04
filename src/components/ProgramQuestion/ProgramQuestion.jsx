@@ -4,8 +4,8 @@ import './ProgramQuestion.css';
 
 const ProgramQuestion= () => {
     return (
-        <div className="container-question">
-            <div className="content-question">
+        <div className="c-question">
+            <div className="co-question">
                 <h2>Can't find a suitable<br></br> program?</h2>
                 <p>We will help you with the choice!</p>
                 <svg className='svg4' width="160" height="105" viewBox="0 0 169 59" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -2,7 +2,7 @@
   "name": "courses-platform-x8team",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://hussam633hasan.github.io/Courses-Platform-X8team/",
+  "homepage": "https://hussam633hasan.github.io/Courses-Platform-X8team",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

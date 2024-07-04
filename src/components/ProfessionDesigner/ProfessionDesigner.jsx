@@ -1,11 +1,11 @@
 import React from 'react'
 import "./professionDesigner.css"
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col , Row } from 'react-bootstrap'
 
 export default function ProfessionDesigner() {
     return (
-        <section className='py-5 DJ-designer'>
-            <Row className='py-5 DJ-title'>
+        <section className='DJ-designer'>
+            <Row className='DJ-title'>
 
                 {/* left side  */}
                 <Col md={6} className='mb-3'>
@@ -14,7 +14,7 @@ export default function ProfessionDesigner() {
                 </Col>
 
                 {/* right side  */}
-                <Col md={6} className='d-flex justify-content-between gap-3 mb-3'>
+                <Col md={6} className='d-flex justify-content-between gap-3 flex-wrap mb-3'>
                     <div className='DJ-positionDetails'>
                         <div className='DJ-detailTitle'>
                             <h2>5 000 $</h2>
@@ -57,22 +57,6 @@ export default function ProfessionDesigner() {
                 </Col>
             </Row>
 
-            {/* <div className='d-flex flex-wrap justify-content-center gap-3 py-5'>
-                <div className='DJ-cardItem'>
-                    <h3>Portfolio</h3>
-                    <p>You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma</p>
-                </div>
-
-                <div className='DJ-cardItem'>
-                    <h3>Internship</h3>
-                    <p>You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma</p>
-                </div>
-
-                <div className='DJ-cardItem'>
-                    <h3>Certificate</h3>
-                    <p>You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma</p>
-                </div>
-            </div> */}
         </section>
     )
 }

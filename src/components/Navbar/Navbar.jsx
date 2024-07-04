@@ -31,7 +31,7 @@ export default function Navbar() {
             <div className={ShowSidebar ? "Navbar" : "sidebar"}>
                 <div className={ShowSidebar ? "logo" : "logo-sidebar"}>
                     <Link to="/">
-                        <img src='./public/assets/images/Nav/logo.png' />
+                        <img src='./assets/images/Nav/logo.png' />
                     </Link>
                     <h4>UpDate</h4>
                 </div>

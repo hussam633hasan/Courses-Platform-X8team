@@ -14,7 +14,7 @@ Add posters, logos, merch design and other strong
  projects to your portfolio.
 Start a career in the studio or freelance." 
      buttontext="Started" 
-     imagesurc="./public/assets/images/Courses/Programms and image.png" 
+     imagesurc="./assets/images/Courses/Programms and image.png" 
     discount= {
         25
     }

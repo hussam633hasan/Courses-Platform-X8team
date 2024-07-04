@@ -1,14 +1,14 @@
 .DJ-designer {
-    padding: 120px 200px;
+    padding: 100px 200px;
 }
 
-.DJ-title h2{
+.DJ-designer .DJ-title h2{
     max-width: 300px;
     font-family: Inter;
     font-weight: 700;
 }
 
-.DJ-title p {
+.DJ-designer .DJ-title p {
     max-width: 400px;
     margin-top: 15px;
     font-family: Inter;
@@ -17,49 +17,50 @@
     color: #6D6D77;
 }
 
-.DJ-title span {
+.DJ-designer .DJ-title span {
     display: block;
     margin-top: -15px;
     font-family: Inter;
     font-size: 14px;
 }
 
-.DJ-title .DJ-positionDetails {
-    width: 200px;
+.DJ-designer .DJ-title .DJ-positionDetails {
+    max-width: 250px;
 }
 
-.DJ-title .DJ-positionDetails .DJ-detailTitle {
+.DJ-designer .DJ-title .DJ-positionDetails .DJ-detailTitle {
+    width: 180px;
     padding: 15px 0;
     border-bottom: 3px solid black;
 }
 
-.DJ-cardItem:hover {
+.DJ-designer .DJ-cardItem:hover {
     box-shadow: 0 5px 3px rgba(0, 0, 0, 0.3);
 }
 
-.DJ-cardItem h3 {
+.DJ-designer .DJ-cardItem h3 {
     font-family: Inter;
     font-weight: 700;
     padding: 15px 0;
     border-bottom: 3px solid black;
 }
 
-.DJ-cardItem p {
+.DJ-designer .DJ-cardItem p {
     font-family: Inter;
     font-weight: 400;
     font-size: 14px;
-    margin-top: 15px;
+    margin: 15px 0 0;
 }
 
-.DJ-blue {
+.DJ-designer .DJ-blue {
     background-color: #DEEFE4;
 }
 
-.DJ-yellow {
+.DJ-designer .DJ-yellow {
     background-color: #F3F3D7;
 }
 
-.DJ-purple {
+.DJ-designer .DJ-purple {
     background-color: #EFDEEE;
 }
 
@@ -70,20 +71,7 @@
 }
 
 @media screen and (min-width: 992px) {
-    .DJ-yellow {
+    .DJ-designer .DJ-yellow {
         transform: translateY(50px);
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .DJ-yellow {
-        transform: translateY(50px);
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .DJ-title h2{
-        max-width: 225px;
-        font-size: 30px;
     }
 }

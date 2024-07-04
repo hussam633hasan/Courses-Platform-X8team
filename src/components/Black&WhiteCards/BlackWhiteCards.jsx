@@ -4,28 +4,28 @@ const person_kt = {
     id: "1",
     name: "Jessica Hische",
     Image:
-      "../../../public/assets/images/Main_page/Classes Taught by Real Creators/card1.png",
+      "./assets/images/Main_page/Classes Taught by Real Creators/card1.png",
     description: "Illustrator",
   },
   2: {
     id: "2",
     name: "Jeff Staple",
     Image:
-      "../../../public/assets/images/Main_page/Classes Taught by Real Creators/card2.png",
+      "./assets/images/Main_page/Classes Taught by Real Creators/card2.png",
     description: "Photographer",
   },
   3: {
     id: "3",
     name: "Aaron Draplin",
     Image:
-      "../../../public/assets/images/Main_page/Classes Taught by Real Creators/card3.png",
+      "./assets/images/Main_page/Classes Taught by Real Creators/card3.png",
     description: "Programmer",
   },
   4: {
     id: "4",
     name: "Jake Bartlett",
     Image:
-      "../../../public/assets/images/Main_page/Classes Taught by Real Creators/card4.png",
+      "./assets/images/Main_page/Classes Taught by Real Creators/card4.png",
     description: "Motion Designer",
   },
 };
@@ -42,8 +42,8 @@ export default function Card() {
           <button className="button-kt">
             see more{" "}
             <img
-              src="../../../public/assets/images/Main_page/Classes Taught by Real Creators/arrow_right.svg"
-              alt="arrow-kt"
+              src="./assets/images/Main_page/Classes Taught by Real Creators/arrow_right.svg"
+              alt="arrow"
             />
           </button>
         </div>
@@ -59,8 +59,8 @@ export default function Card() {
               <div className="info-kt">
                 <p className="p-kt">{person_kt.description}</p>
                 <img
-                  src="../../../public/assets/images/Main_page/Classes Taught by Real Creators/ArrowRotate.svg"
-                  alt="arrow-kt"
+                  src="./assets/images/Main_page/Classes Taught by Real Creators/ArrowRotate.svg"
+                  alt="arrow"
                 />
               </div>
             </div>

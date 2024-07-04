@@ -56,7 +56,7 @@ function Footer() {
           <div className="logo-container">
             <img
               className="logo"
-              src="./../../../public/assets/images/Footer/logo.png"
+              src="./assets/images/Footer/logo.png"
               alt="logo"
             />
             <h6>UpDate</h6>
@@ -67,15 +67,15 @@ function Footer() {
           </div>
           <div className="social_media">
             <img
-              src="./../../../public/assets/images/Footer/Facebook.png"
+              src="./assets/images/Footer/Facebook.png"
               alt="Facebook logo"
             />
             <img
-              src="./../../../public/assets/images/Footer/Youtube.png"
+              src="./assets/images/Footer/Youtube.png"
               alt="Youtube logo"
             />
             <img
-              src="./../../../public/assets/images/Footer/Twitter.png"
+              src="./assets/images/Footer/Twitter.png"
               alt="Twitter logo"
             />
           </div>

@@ -1,5 +1,5 @@
     .DJ-discover {
-        padding: 120px 200px !important;
+        padding: 100px 200px;
     }
     
     .DJ-discover h2 {
@@ -65,15 +65,11 @@
 
     @media screen and (max-width: 1200px) {
         .DJ-discover {
-            padding: 50px !important;
+            padding: 50px;
         }
     }
     
     @media screen and (max-width: 992px) {
-        .DJ-discover {
-            padding: 50px !important;
-        }
-        
         .DJ-discover .DJ-discoverNav {
             flex-direction: column;
             align-items: flex-start;
@@ -88,9 +84,3 @@
             width: 100%;
         }
     }
-    
-    /* @media(max-width:1259px) {
-        .DJ-discover {
-            padding: 50px 70px!important;
-        }
-    } */
