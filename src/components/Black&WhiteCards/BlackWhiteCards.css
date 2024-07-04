@@ -1,129 +1,125 @@
-.cards-section * {
-    font-family: sans-serif;
+.container-kt {
+  padding: 120px 200px;
 }
 
-.contain {
-    padding: 120px 200px;
+.cards-section-kt {
+  border: none;
 }
 
-.cards-section {
-    border: none;
+.cards-section-kt .h2-kt {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1.2;
+  width: 50%;
 }
 
-.cards-section h2 {
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 1.2;
-    width: 50%;
+.cards-section-kt .more-kt {
+  display: flex;
+  justify-content: space-between;
 }
 
-.cards-section .more {
-    display: flex;
-    justify-content: space-between;
+.cards-section-kt .more-kt .button-kt {
+  background-color: transparent;
+  border-color: transparent;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  font-size: 15px;
 }
 
-.cards-section .more button {
-    background-color: transparent;
-    border-color: transparent;
-    font-weight: bold;
-    align-items: center;
-    display: flex;
-    font-size: 15px;
+.cards-section-kt .more-kt .button-kt .img-kt {
+  width: 27px;
+  margin-left: 8px;
 }
 
-.cards-section .more button img {
-    width: 27px;
-    margin-left: 8px;
+.cards-section-kt .more-kt .p-kt {
+  width: 50%;
+  color: #6d6d77;
 }
 
-.cards-section .more p {
-    width: 50%;
-    color: #6d6d77;
+.cards-kt {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  gap: 20px;
+  width: 100%;
+  padding: 20px 0;
 }
 
-.cards {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 0;
-    gap: 20px;
-    width: 100%;
-    padding: 20px 0;
+.cards-kt .h3-kt {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 26px;
+  text-align: left;
+  margin-top: 14px;
 }
 
-.cards h3 {
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 26px;
-    text-align: left;
-    margin-top: 14px;
+.cards-kt .p-kt {
+  color: #6d6d77;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
 }
 
-.cards p {
-    color: #6d6d77;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 28px;
+.cards-kt .info-kt {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
-.cards .info {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+.cards-kt .info-kt .img-kt {
+  width: 14px;
 }
 
-.cards .info img {
-    width: 14px;
+.cards-kt .img-size-kt {
+  width: 100%;
+  transition: filter 0.3s ease;
 }
 
-.cards .img-size {
-    width: 100%;
-    transition: filter 0.3s ease;
+.cards-kt .img-size-kt:hover {
+  filter: sepia(0.2) hue-rotate(150deg) saturate(5);
+  cursor: pointer;
+  transform: scale(1.01);
 }
 
-.cards .img-size:hover {
-    filter: sepia(0.2) hue-rotate(150deg) saturate(5);
-    cursor: pointer;
-    transform: scale(1.01);
-}
-
-.person-card2,
-.person-card4 {
-    margin-top: 8%;
+.person-card-kt2,
+.person-card-kt4 {
+  margin-top: 8%;
 }
 
 @media (max-width: 992px) {
-    .contain {
-        padding: 40px !important;
-    }
-    .cards-section h2 {
-        width: 100%;
-        text-align: center;
-    }
-    .cards {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center !important;
-        align-items: center !important;
-    }
-    .cards-section .more {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .cards-section .more p {
-        width: 100%;
-        color: #6d6d77;
-        text-align: center;
-    }
-    .person-card2,
-    .person-card4 {
-        margin-top: 0;
-    }
-    .person-card1,
-    .person-card2,
-    .person-card3,
-    .person-card4 {
-        width: 45%;
-    }
+  .container-kt {
+    padding: 40px !important;
+  }
+  .cards-section-kt .h2-kt {
+    width: 100%;
+    text-align: center;
+  }
+  .cards-kt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .cards-section-kt .more-kt {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .cards-section-kt .more-kt .p-kt {
+    width: 100%;
+    color: #6d6d77;
+    text-align: center;
+  }
+  .person-card-kt2,
+  .person-card-kt4 {
+    margin-top: 0;
+  }
+  .person-card-kt1,
+  .person-card-kt2,
+  .person-card-kt3,
+  .person-card-kt4 {
+    width: 45%;
+  }
 }

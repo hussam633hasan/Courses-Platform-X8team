@@ -1,4 +1,4 @@
- import "./Teachers.css";
+import "./Teachers.css";
 const person = {
   1: {
     id: "1",
@@ -28,16 +28,20 @@ const person = {
 };
 export default function Card() {
   return (
-    <div className="cards-section">
-      <div className="container1">
-        <h2 className="h2">Teachers</h2>
-        <div className="cards">
+    <div className="cards-section-kh">
+      <div className="container1-kh">
+        <h2 className="h2-kh">Teachers</h2>
+        <div className="cards-kh">
           {Object.entries(person).map(([id, person]) => (
-            <div className={`person-card${id}`} key={id}>
-              <img className="img-size" src={person.Image} alt={person.name} />
-              <h3 className="h3">{person.name}</h3>
-              <div className="info">
-                <p className="p">{person.description}</p>
+            <div className={`person-card-kh${id}`} key={id}>
+              <img
+                className="img-size-kh"
+                src={person.Image}
+                alt={person.name}
+              />
+              <h3 className="h3-kh">{person.name}</h3>
+              <div className="info-kh">
+                <p className="p-kh">{person.description}</p>
                 <img
                   src="./assets/images/Main_page/Classes Taught by Real Creators/ArrowRotate.svg"
                   alt="arrow"
