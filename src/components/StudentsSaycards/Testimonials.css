@@ -80,6 +80,9 @@
 }
 
 @media (max-width: 765px) {
+  .container-ko {
+    padding: 0px !important;
+  }
   .head-ko {
     flex-wrap: wrap;
     justify-content: center;
@@ -87,5 +90,8 @@
   .head-ko .h2-ko {
     width: 100%;
     text-align: center;
+  }
+  #row-ko{
+    margin: 0 !important;
   }
 }

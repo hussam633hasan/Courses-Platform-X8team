@@ -36,7 +36,7 @@ function Testimonials() {
           />
         </div>
       </div>
-      <div className="row">
+      <div className="row" id="row-ko">
         {testimonials.map((testimonial) => (
           <div key={testimonial.id} className="col-md-6 mb-4">
             <div className="testimonial-card-ko">

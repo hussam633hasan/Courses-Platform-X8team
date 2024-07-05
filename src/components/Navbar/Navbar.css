@@ -136,7 +136,7 @@ svg{
         height: 100vh;
         background: #f8f9fa;
         z-index: 999;
-        transition: 2s;
+        transition: 1.5s;
     }
 
     .links {
@@ -161,7 +161,7 @@ svg{
         left: 0;
         width: 0;
         height: 2px;
-        background: white;
+        background: rgb(0, 0, 0);
         transition: 0.3s;
     }
 
@@ -231,7 +231,7 @@ svg{
         height: 100vh;
         background: #f8f9fa;
         z-index: 999;
-        transition: 2s;
+        transition: 1.5s;
     }
 
     .links {
@@ -256,7 +256,7 @@ svg{
         left: 0;
         width: 0;
         height: 2px;
-        background: white;
+        background: rgb(0, 0, 0);
         transition: 0.3s;
     }
 

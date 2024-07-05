@@ -122,7 +122,6 @@
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: column;
-  gap: 80px;
 }
 
 .price-card-kd1 .card-foot-kd,
@@ -229,7 +228,7 @@
   .price-card-kd1,
   .price-card-kd2,
   .price-card-kd3 {
-    width: 80%;
+    width: 300px;
     margin-bottom: 20px;
   }
   .container1-kd {
