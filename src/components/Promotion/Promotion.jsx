@@ -6,10 +6,10 @@ function Promotion() {
   return ( <section className="promo">
     <div>
       <div className="percentage">
-        <h2>50%</h2>
+        <h2 className="h2-promo">50%</h2>
         <div className="time">
-          <h6>27 Days</h6>
-          <h6>17:44:16</h6>
+          <h6 className="h6-promo">27 Days</h6>
+          <h6 className="h6-promo">17:44:16</h6>
         </div>
       </div>
     </div>

@@ -75,3 +75,9 @@
         transform: translateY(50px);
     }
 }
+
+@media screen and (max-width: 576px) {
+    .DJ-designer .DJ-title h2 {
+        font-size: 25px;
+    }
+}

@@ -6,7 +6,7 @@ const Card = ({ image, title, isSpecial }) => {
     <div className={`card ${isSpecial ? 'special-card' : ''}`}>
       <img src={image} className="card-img-top" alt={title} />
       <div className="card-body">
-        <h5 className="card-title">{title}</h5>
+        <h5 className="card-title h5-style">{title}</h5>
       </div>
     </div>
   );
