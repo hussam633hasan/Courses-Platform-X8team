@@ -243,6 +243,10 @@
                 right: 0px;
                 margin: auto;
                 margin-top: 500px !important;
+                background-image: url('./assets/images/Hero_Images/Main page/Ellipse 21.png');
+                background-repeat: no-repeat;
+                background-position: right;
+                background-size: contain;
             }
             .colum {
                 display: none;

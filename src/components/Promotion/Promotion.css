@@ -13,8 +13,7 @@
     padding: 100px 200px;
 }
 
-
-.promo h2 {
+.promo .h2-promo {
     font-size: 45px;
     font-weight: 700;
     color: #fbfbfc;
@@ -31,7 +30,7 @@
     justify-content: space-between;
 }
 
-.time h6 {
+.time .h6-promo {
     font-size: 18px;
     font-weight: 700;
     line-height: 21.78px;
@@ -39,7 +38,7 @@
     margin-right: 10px;
 }
 
-.time h6:last-child {
+.time .h6-promo:last-child {
     margin-right: 0;
 }
 
@@ -141,7 +140,7 @@
 }
 
 @media (max-width: 1400px) {
-    h2 {
+    .h2-promo {
         font-size: 40px;
     }
     .promo {
@@ -195,10 +194,10 @@
     .promo {
         padding: 10px;
     }
-    .percentage h2 {
+    .percentage .h2-promo {
         font-size: 24px;
     }
-    .time h6 {
+    .time .h6-promo {
         font-size: 14px;
     }
     .promoDesc p {
@@ -239,10 +238,10 @@
     .promo {
         padding: 10px;
     }
-    .percentage h2 {
+    .percentage .h2-promo {
         font-size: 20px;
     }
-    .time h6 {
+    .time .h6-promo {
         font-size: 12px;
     }
     .promoDesc p {
