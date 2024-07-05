@@ -37,3 +37,9 @@
         padding: 50px;
     }
 }
+
+@media screen and (max-width: 576px) {
+    .DJ-style h2 {
+        font-size: 25px;
+    }
+}

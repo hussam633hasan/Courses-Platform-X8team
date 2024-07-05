@@ -84,3 +84,9 @@
             width: 100%;
         }
     }
+
+    @media screen and (max-width: 576px) {
+        .DJ-discover h2 {
+            font-size: 25px;
+        }
+    }
