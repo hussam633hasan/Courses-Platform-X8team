@@ -96,10 +96,10 @@
     }
     
     @media (max-width: 1359px) {
-        .svg4 {
-            width: 120px !important;
+        .co-question .svg4 {
+            width: 100px !important;
             position: absolute !important;
-            right: -120px !important;
+            right: 30px !important;
         }
         .co-question {
             padding-right: 100px !important;
