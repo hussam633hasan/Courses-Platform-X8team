@@ -6,6 +6,10 @@ import Courses from "./pages/Courses/Courses";
 import Blog from "./pages/Blog/Blog";
 import Article from "./pages/Article/Article";
 import Dashboard from "./pages/Dashboard/Dashboard";
+import ArticleDashboard from "./pages/Dashboard/ArticleDashboard"; 
+import AddArticle from "./pages/Dashboard/AddArticles";
+import EditArticle from "./pages/Dashboard/EditArticle";
+import ArticleDetailPage from "./pages/Dashboard/ArticleDetail";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 
@@ -16,6 +20,7 @@ function App() {
   return (
     <>
 
+
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -23,8 +28,14 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/article" element={<Article />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/articledashboard" element={<ArticleDashboard />} />
+        <Route path="/addarticle" element={<AddArticle />} /> 
+        <Route path="/editarticle/:title" element={<EditArticle />} />
+        <Route path="/articledetail/:title" element={<ArticleDetailPage />} />
+
+
       </Routes>
-      <Footer />
+
 
     </>
   );

@@ -1,0 +1,107 @@
+.EI-articledash {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 80px 25%;
+  padding-left: 30px;
+  align-items: left;
+  justify-content: center;
+  gap: 20px;
+}
+.EI-searchbar {
+  width: 80%;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+.EI-searchbar input {
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  text-align: left;
+  height: 30px;
+  padding-left: 8px;
+  color: #e5e5e5;
+}
+
+.EI-searchicon {
+  position: absolute;
+  right: 30px;
+  top: 8px;
+}
+.EI-bellicon {
+  padding-top: 8px;
+  margin-left: 8px;
+}
+
+.EI-Addnew {
+  background-color: #504dee;
+  color: white;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 10px;
+}
+
+.EI-Addnew:hover {
+  background-color: #4947bb;
+  cursor: pointer;
+}
+.EI-articlehead {
+  display: flex;
+  justify-content: space-between;
+}
+
+.EI-articletable {
+  width: 100%;
+  border-top: 1px solid #e5e5e5;
+}
+
+.EI-articletable thead {
+  height: 50px;
+}
+
+.EI-edit {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.EI-table {
+  text-align: center;
+  color: #acacac;
+  font-size: 12px;
+}
+.EI-data {
+  font-size: 16px;
+  color: #19191c;
+}
+.EIlinks {
+  text-decoration: none;
+}
+.EI-tr {
+  height: 70px;
+}
+.EI-tr:hover {
+  background-color: #f7f7f7e6;
+}
+
+@media (max-width: 1200px) {
+  .EI-articledash {
+    width: 75%;
+    padding: 80px 10%;
+  }
+
+  .EI-data {
+    font-size: 14px;
+  }
+  .EI-tr {
+    height: 90px;
+  }
+}
+@media (max-width: 768px) {
+  .EI-articledash {
+    width: 100%;
+    padding: 200px 10%;
+    margin: 0;
+  }
+
+}
