@@ -8,9 +8,11 @@ import ProgramQuestion from '../../components/ProgramQuestion/ProgramQuestion';
 import FAQ from'../../components/FAQ/FAQ';
 import Testimonials from "../../components/StudentsSaycards/Testimonials";
 import BlackWhiteCards from "../../components/Black&WhiteCards/BlackWhiteCards";
-
+import Footer from "../../components/Footer/Footer.jsx"
+import Navbar from "../../components/Navbar/Navbar.jsx";
 function Home() {
   return( <>
+  <Navbar />
   <HeaderHome/>
   <ContentInfo />
   <DiscoverLearning />
@@ -22,6 +24,7 @@ function Home() {
   <BlackWhiteCards /> 
   <ProgramQuestion/>
   <FAQ/>
+  <Footer />
       
   </>
   )

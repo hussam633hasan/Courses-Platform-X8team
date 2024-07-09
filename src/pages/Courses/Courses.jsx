@@ -9,10 +9,14 @@ import StudentsProjects from '../../components/StudentsProjects/StudentsProjects
 import TrainingProgram from '../../components/TrainingProgram/TrainingProgram';
 import Teachers from "../../components/Teachers/Teachers";
 import Price from "../../components/Price/Price";
+import Navbar from "../../components/Navbar/Navbar.jsx";
+import Footer from "../../components/Footer/Footer.jsx";
 
 function Courses() {
 
     return (<>
+
+        <Navbar />
         <HeaderCourses />
         <ProfessionDesigner />
         <CoursesInfo />
@@ -21,6 +25,7 @@ function Courses() {
         <TrainingProgram />
         <Teachers />
         <Price />
+        <Footer />
     </>
     )
 
