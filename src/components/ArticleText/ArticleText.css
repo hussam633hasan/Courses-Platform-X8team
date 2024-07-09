@@ -1,0 +1,30 @@
+.DJ-articleText {
+    padding: 100px 200px;
+}
+
+.DJ-articleText h2 {
+    font-family: Inter;
+    font-weight: 700;
+    margin-bottom: 20px;
+    max-width: 620px;
+}
+
+.DJ-articleText p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    color: #6D6D77;
+    max-width: 795px;
+}
+
+@media screen and (max-width: 1200px) {
+    .DJ-articleText {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .DJ-articleText h2 {
+        font-size: 25px;
+    }
+}

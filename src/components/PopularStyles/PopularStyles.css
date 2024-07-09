@@ -1,0 +1,45 @@
+.DJ-style {
+    padding: 100px 200px 0;
+}
+
+.DJ-style .DJ-paragraph {
+    max-width: 750px;
+}
+
+.DJ-style h2 {
+    font-family: Inter;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.DJ-style p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6D6D77;
+}
+
+.DJ-style .DJ-styleImage:last-child {
+    transform: translateY(75px);
+}
+
+.DJ-style .DJ-styleImage {
+    overflow: hidden;
+}
+
+.DJ-style .DJ-styleImage:hover img {
+    transform: scale(1.1) rotate(5deg);
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 1200px) {
+    .DJ-style {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .DJ-style h2 {
+        font-size: 25px;
+    }
+}

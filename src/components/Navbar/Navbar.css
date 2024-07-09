@@ -18,7 +18,7 @@
 }
 
 .Navbar-bg{
-    background-color: #3F51B5;
+    background-color: #f8f9fa;
     display: flex;
     justify-content: center;
     font-family: "Inter";
@@ -37,7 +37,11 @@
     background: white;
     z-index: 999;
 }
-
+svg{
+    width: 30px !important;
+    position: static !important;
+    right: 0px !important;
+}
 .icon-bars {
     display: none;
     margin: 0 20px;
@@ -130,9 +134,9 @@
         right: 0px;
         width: 300px;
         height: 100vh;
-        background: #3F51B5;
+        background: #f8f9fa;
         z-index: 999;
-        transition: 2s;
+        transition: 1.5s;
     }
 
     .links {
@@ -146,6 +150,7 @@
         color: black;
         filter: opacity(0.7);
         display: flex;
+        align-items: center;
         width: max-content;
     }
 
@@ -156,7 +161,7 @@
         left: 0;
         width: 0;
         height: 2px;
-        background: white;
+        background: rgb(0, 0, 0);
         transition: 0.3s;
     }
 
@@ -224,9 +229,9 @@
         right: 0px;
         width: 250px;
         height: 100vh;
-        background: #3F51B5;
+        background: #f8f9fa;
         z-index: 999;
-        transition: 2s;
+        transition: 1.5s;
     }
 
     .links {
@@ -251,7 +256,7 @@
         left: 0;
         width: 0;
         height: 2px;
-        background: white;
+        background: rgb(0, 0, 0);
         transition: 0.3s;
     }
 

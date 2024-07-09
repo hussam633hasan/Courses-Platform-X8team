@@ -31,14 +31,14 @@ export default function Navbar() {
             <div className={ShowSidebar ? "Navbar" : "sidebar"}>
                 <div className={ShowSidebar ? "logo" : "logo-sidebar"}>
                     <Link to="/">
-                        <img src='./public/assets/images/Nav/logo.png' />
+                        <img src='./assets/images/Nav/logo.png' />
                     </Link>
                     <h4>UpDate</h4>
                 </div>
                 <div className={ShowSidebar ? "links" : "links-sidebar"}>
                     <div className='HH-links-part1'>
                         <NavDropdown title="Courses" id="basic-nav-dropdown">
-                           <Link to={'/Courses'}>Courses</Link>
+                           <Link to={'/courses'}>Courses</Link>
                         </NavDropdown>
                         <a href="#Teachers">Teachers</a>
                         <Link to={'/blog'}>Blog</Link>
@@ -54,7 +54,7 @@ export default function Navbar() {
                     </div>
                 </div>
                 <button onClick={HandlShowSidebar} className={ShowSidebar ? "icon-bars" : "Xmark-icon"}>
-                    {ShowSidebar ? <FontAwesomeIcon icon={faBarsStaggered} flip="horizontal" size="2xl" style={{ color: "#19191C", }} /> : <FontAwesomeIcon icon={faXmark} size="2xl" style={{ color: "#fff", }} />}
+                    {ShowSidebar ? <FontAwesomeIcon icon={faBarsStaggered} flip="horizontal" size="2xl" style={{ color: "#19191C", }} /> : <FontAwesomeIcon icon={faXmark} size="2xl" style={{ color: "#000", }} />}
                 </button>
             </div>
         </nav>

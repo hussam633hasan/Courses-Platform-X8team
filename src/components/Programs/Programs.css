@@ -1,22 +1,23 @@
 .program {
-  display: flex;
-  align-items: center;
-  padding: 20px 0;
-  gap: 50px;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    gap: 50px;
 }
 
 .program button {
-  border: 2px solid black;
-  background-color: white;
-  width: 170px;
-  text-align: center;
-  padding: 10px 10px;
+    border: 2px solid black;
+    background-color: white;
+    width: 170px;
+    text-align: center;
+    padding: 10px 10px;
+    color: black;
 }
 
 @media (max-width: 1330px) {
-  .program {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-  }
+    .program {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
 }

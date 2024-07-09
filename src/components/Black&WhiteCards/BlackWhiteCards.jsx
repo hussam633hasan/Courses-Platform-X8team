@@ -1,61 +1,65 @@
 import "./BlackWhiteCards.css";
-const person = {
+const person_kt = {
   1: {
     id: "1",
     name: "Jessica Hische",
     Image:
-      "../../../public/assets/images/Main_page/Classes Taught by Real Creators/card1.png",
+      "./assets/images/Main_page/Classes Taught by Real Creators/card1.png",
     description: "Illustrator",
   },
   2: {
     id: "2",
     name: "Jeff Staple",
     Image:
-      "../../../public/assets/images/Main_page/Classes Taught by Real Creators/card2.png",
+      "./assets/images/Main_page/Classes Taught by Real Creators/card2.png",
     description: "Photographer",
   },
   3: {
     id: "3",
     name: "Aaron Draplin",
     Image:
-      "../../../public/assets/images/Main_page/Classes Taught by Real Creators/card3.png",
+      "./assets/images/Main_page/Classes Taught by Real Creators/card3.png",
     description: "Programmer",
   },
   4: {
     id: "4",
     name: "Jake Bartlett",
     Image:
-      "../../../public/assets/images/Main_page/Classes Taught by Real Creators/card4.png",
+      "./assets/images/Main_page/Classes Taught by Real Creators/card4.png",
     description: "Motion Designer",
   },
 };
 export default function Card() {
   return (
-    <div className="cards-section">
-      <div className="container">
-        <h2 className="h2">Classes Taught by Real Creators</h2>
-        <div className="more">
+    <div className="cards-section-kt">
+      <div className="container-kt">
+        <h2 className="h2-kt">Classes Taught by Real Creators</h2>
+        <div className="more-kt">
           <p>
             Lorem teachers are icons, experts, and industry rock stars excited
             to share their experience, wisdom, and trusted tools with you
           </p>
-          <button>
+          <button className="button-kt">
             see more{" "}
             <img
-              src="../../../public/assets/images/Main_page/Classes Taught by Real Creators/arrow_right.svg"
+              src="./assets/images/Main_page/Classes Taught by Real Creators/arrow_right.svg"
               alt="arrow"
             />
           </button>
         </div>
-        <div className="cards">
-          {Object.entries(person).map(([id, person]) => (
-            <div className={`person-card${id}`} key={id}>
-              <img className="img-size" src={person.Image} alt={person.name} />
-              <h3 className="h3">{person.name}</h3>
-              <div className="info">
-                <p className="p">{person.description}</p>
+        <div className="cards-kt">
+          {Object.entries(person_kt).map(([id, person_kt]) => (
+            <div className={`person-card-kt${id}`} key={id}>
+              <img
+                className="img-size-kt"
+                src={person_kt.Image}
+                alt={person_kt.name}
+              />
+              <h3 className="h3-kt">{person_kt.name}</h3>
+              <div className="info-kt">
+                <p className="p-kt">{person_kt.description}</p>
                 <img
-                  src="../../../public/assets/images/Main_page/Classes Taught by Real Creators/ArrowRotate.svg"
+                  src="./assets/images/Main_page/Classes Taught by Real Creators/ArrowRotate.svg"
                   alt="arrow"
                 />
               </div>

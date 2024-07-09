@@ -6,67 +6,67 @@ import "./Blog.css";
 const initialArticles = [
   {
     id: 1,
-    image: "./../../../public/assets/images/Blog/image.png",
+    image: "./assets/images/Blog/image.png",
     title: "UI/UX Design Trends in 2022",
     tag: "# UI/UX Design",
     category: "Design",
     desc: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga...",
-    icon: "./../../../public/assets/images/Blog/Icon clock.png",
+    icon: "./assets/images/Blog/Icon clock.png",
     readTime: "3 min read",
     date: "April 12, 2022",
   },
   {
     id: 2,
-    image: "./../../../public/assets/images/Blog/image (1).png",
+    image: "./assets/images/Blog/image (1).png",
     title: "What new programming languages are in demand now?",
     tag: "# Programming",
     category: "Programming",
     desc: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga...",
-    icon: "./../../../public/assets/images/Blog/Icon clock.png",
+    icon: "./assets/images/Blog/Icon clock.png",
     readTime: "5 min read",
     date: "March 25, 2022",
   },
   {
     id: 3,
-    image: "./../../../public/assets/images/Blog/image (2).png",
+    image: "./assets/images/Blog/image (2).png",
     title: "Top popular styles in illustration 2022",
     tag: "# Illustration",
     category: "Illustration",
     desc: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga...",
-    icon: "./../../../public/assets/images/Blog/Icon clock.png",
+    icon: "./assets/images/Blog/Icon clock.png",
     readTime: "7 min read",
     date: "March 18, 2022",
   },
   {
     id: 4,
-    image: "./../../../public/assets/images/Blog/image (3).png",
+    image: "./assets/images/Blog/image (3).png",
     title: "The secrets of a successful frame. What rules should be followed?",
     tag: "# Photo & Film",
     category: "Photo & Film",
     desc: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga...",
-    icon: "./../../../public/assets/images/Blog/Icon clock.png",
+    icon: "./assets/images/Blog/Icon clock.png",
     readTime: "6 min read",
     date: "March 17, 2022",
   },
   {
     id: 5,
-    image: "./../../../public/assets/images/Blog/image (6).png",
+    image: "./assets/images/Blog/image (6).png",
     title: "Brainstorming in design: from the idea to its implementation",
     tag: "# UI/UX Design",
     category: "Design",
     desc: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi...",
-    icon: "./../../../public/assets/images/Blog/Icon clock.png",
+    icon: "./assets/images/Blog/Icon clock.png",
     readTime: "12 min read",
     date: "March 12, 2022",
   },
   {
     id: 6,
-    image: "./../../../public/assets/images/Blog/image (4).png",
+    image: "./assets/images/Blog/image (4).png",
     title: "Who is an Internet marketer and what does he do?",
     tag: "# Marketing",
     category: "Marketing",
     desc: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi...",
-    icon: "./../../../public/assets/images/Blog/Icon clock.png",
+    icon: "./assets/images/Blog/Icon clock.png",
     readTime: "5 min read",
     date: "February 2, 2022",
   },
@@ -172,7 +172,7 @@ function Blog() {
         ))}
       </section>
       <section className="pages">
-      <nav>
+      <nav className="Number-Nav">
         <a href="#">&larr;</a>
         <a href="#">1</a>
         <a href="#">2</a>

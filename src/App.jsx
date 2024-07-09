@@ -10,12 +10,18 @@ import ArticleDashboard from "./pages/Dashboard/ArticleDashboard";
 import AddArticle from "./pages/Dashboard/AddArticles";
 import EditArticle from "./pages/Dashboard/EditArticle";
 import ArticleDetailPage from "./pages/Dashboard/ArticleDetail";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+
+
+
 
 function App() {
   return (
     <>
 
 
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />

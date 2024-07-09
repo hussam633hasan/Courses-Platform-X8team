@@ -4,6 +4,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 100px;
+  position: relative;
+  top: 75px;
+  margin-bottom: 35px;
 }
 
 .category-Nav ul {
@@ -15,8 +18,8 @@
   background-color: #19191c;
   border: none;
   color: #fbfbfc;
-  margin-right: 30px;
-  padding-top: 15px;
+  padding-top: 19px;
+  margin: 0px 15px;
 }
 
 .category-Nav ul button:hover {
@@ -170,13 +173,13 @@
   margin-bottom: 50px;
 }
 
-nav a {
+.Number-Nav a {
   text-decoration: none;
   color: #19191c;
   margin-right: 10px;
 }
 
-nav a:hover {
+.Number-Nav a:hover {
   border: solid #19191c 1px;
   padding: 4px 4px;
 }
@@ -219,9 +222,7 @@ nav a:hover {
 }
 
 @media (max-width: 1094px) {
-  .category-Nav {
-    padding: 15px 50px;
-  }
+ئ
 
   .category-Nav ul {
     align-items: center;
@@ -252,13 +253,13 @@ nav a:hover {
   }
 }
 
-@media (max-width: 927px) {
+@media (max-width: 945px) {
   .sort-by {
     display: none;
   }
 
   .category-Nav {
-    padding: 15px 15px;
+    padding: 10px 10px;
     justify-content: center;
   }
   .blog-container {
@@ -266,17 +267,27 @@ nav a:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 772px) {
   .category-Nav ul {
     display: none;
   }
 
   .sort-by {
-    display: block;
+    display: inline-block;
   }
+
+  
+.sort-by::after {
+  position: absolute;
+  left: 70px;
+  top: 8px;
+}
+
 
   .category-Nav {
     justify-content: left;
+    padding-left: 20px;
+    margin-bottom: 85px;
   }
   .blog-container {
     padding: 75px 100px;

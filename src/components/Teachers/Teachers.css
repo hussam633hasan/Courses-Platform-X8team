@@ -1,0 +1,145 @@
+.cards-section-kh {
+  border: none;
+}
+
+.container1-kh {
+  padding: 100px 200px;
+}
+
+.cards-section-kh .h2-kh {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 1.2;
+  width: 50%;
+}
+
+.cards-section-kh .cards-kh {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards-section-kh .cards-kh .p-kh {
+  width: 50%;
+  color: #6d6d77;
+}
+
+.cards-kh {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  gap: 20px;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.cards-kh .h3-kh {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 26px;
+  text-align: left;
+  margin-top: 14px;
+}
+
+.cards-kh .p-kh {
+  color: #6d6d77;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.cards-kh .info-kh {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.cards-kh .info-kh .arrow-kh {
+  width: 14px;
+}
+
+.cards-kh .img-size-kh {
+  width: 100%;
+  transition: filter 0.3s ease;
+}
+
+.cards-kh .img-size-kh:hover {
+  filter: sepia(0.2) hue-rotate(150deg) saturate(5);
+  cursor: pointer;
+  transform: scale(1.01);
+}
+
+.person-card-kh2,
+.person-card-kh4 {
+  margin-top: 8%;
+}
+
+@media (max-width: 992px) {
+  .container1-kh {
+    padding: 100px;
+  }
+  .cards-section-kh .h2-kh {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .cards .h3-kh {
+    font-size: 25px;
+  }
+  .cards-kh {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  .cards-section-kh .cards-kh {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .cards-section-kh .cards-kh .p-kh {
+    width: 100%;
+    color: #6d6d77;
+    text-align: center;
+  }
+  .person-card2-kh,
+  .person-card4-kh {
+    margin-top: 0;
+  }
+  .person-card-kh1,
+  .person-card-kh2,
+  .person-card-kh3,
+  .person-card-kh4 {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards-section-kh .h2-kh {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .cards-kh {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  .cards-section-kh .cards-kh {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .cards-section-kh .cards-kh .p-kh {
+    width: 100%;
+    color: #6d6d77;
+    text-align: center;
+  }
+  .person-card-kh2,
+  .person-card-kh4 {
+    margin-top: 0;
+  }
+  .person-card-kh1,
+  .person-card-kh2,
+  .person-card-kh3,
+  .person-card-kh4 {
+    width: 98%;
+  }
+}

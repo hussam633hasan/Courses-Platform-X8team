@@ -1,6 +1,6 @@
 import React from 'react'
 import "./DiscoverLearning.css"
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col , Row } from 'react-bootstrap'
 import { Navbar } from 'react-bootstrap'
 import { Nav } from 'react-bootstrap'
 
@@ -31,7 +31,7 @@ export default function DiscoverLearning() {
     ]
 
     return (
-        <Container className='py-5 DJ-discover'>
+        <section className='DJ-discover'>
             <h2>Discover Lifelong Learning</h2>
             <Navbar expand="lg DJ-discoverNav">
                 <Nav className="DJ-nav me-auto gap-3">
@@ -49,12 +49,12 @@ export default function DiscoverLearning() {
             </Navbar>
 
             {/* adding cards  */}
-            <Row className='my-5'>
+            <Row className='mt-5'>
                 {learningCards.map((learningCard, index) => {
                     return (
                         <Col key={index} md="6" lg="3" className='d-flex justify-content-center mb-3'>
                             <div className='DJ-card'>
-                                <img src={learningCard.image} alt="Course image" className='img-fluid' />
+                                <img src={learningCard.image} alt="Course image" className='w-100' />
                                 <h5>{learningCard.title}</h5>
                                 <div className='d-flex justify-content-between'>
                                     <p className='text-secondary'>{learningCard.text}</p>
@@ -67,6 +67,6 @@ export default function DiscoverLearning() {
                     )
                 })}
             </Row>
-        </Container>
+        </section>
     )
 }

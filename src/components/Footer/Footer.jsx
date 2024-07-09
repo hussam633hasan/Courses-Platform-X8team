@@ -1,147 +1,101 @@
-import { faFacebookF, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import logo from "/assets/images/Footer/logo.png";
+import React from "react";
 import "./Footer.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlay } from "@fortawesome/free-solid-svg-icons";
 
-const Footer = () => {
+const InfoSection = ({ title, items }) => {
   return (
-    <footer className="footer text-white py-4 custom-font">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-3">
-            <div className="logo">
-              <img src={logo} alt="Error" />
-              <h5>UpDate</h5>
-            </div>
-            <a href="#" className="text-white me-2 fw-bold fs-5">
-              support@update.com
-            </a>
-            <p className="mt-2 fw-bold fs-5">+1 (213) 677 10 24</p>
-            <div className="social-icons mt-5">
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                className="text-white me-2"
-              >
-                <FontAwesomeIcon icon={faFacebookF} className="icon" />
+    <div className='info-section'>
+      <h6>{title}</h6>
+      <ul>
+        {items.map((item, index) => (
+          <li key={index}>
+            {item.link ? (
+              <a href={item.link} target="_blank">
+                {item.text}
               </a>
-              <a
-                href="https://youtube.com"
-                target="_blank"
-                className="text-white me-2"
-              >
-                <FontAwesomeIcon icon={faPlay} className="icon" />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                className="text-white me-2"
-              >
-                <FontAwesomeIcon icon={faTwitter} className="icon" />
-              </a>
-            </div>
-          </div>
-          <div className="col-md-2">
-            <h5>Courses</h5>
-            <ul className="list-unstyled">
-              <li>
-                <a href="#" className="custom-text">
-                  Animation
-                </a>
-              </li>
-              <li>
-                <a href="#" className="custom-text">
-                  Design
-                </a>
-              </li>
-              <li>
-                <a href="#" className="custom-text">
-                  Illustration
-                </a>
-              </li>
-              <li>
-                <a href="#" className="custom-text">
-                  Programming
-                </a>
-              </li>
-              <li>
-                <a href="#" className="custom-text">
-                  Photo & Film
-                </a>
-              </li>
-              <li>
-                <a href="#" className="custom-text">
-                  Marketing
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-2">
-            <h5>Teachers</h5>
-            <ul className="list-unstyled">
-              <li>
-                <a href="#" className="custom-text">
-                  All Teachers
-                </a>
-              </li>
-              <li>
-                <a href="#" className="custom-text">
-                  Become a Teacher
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-2">
-            <h5>Information</h5>
-            <ul className="list-unstyled">
-              <li>
-                <a href="/src/pages/Blog/Blog.jsx" className="custom-text">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="#" className="custom-text">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="#" className="custom-text">
-                  FAQ
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-2">
-            <h5>En</h5>
-            <ul className="list-unstyled">
-              <li>
-                <a href="#" className="custom-text">
-                  English
-                </a>
-              </li>
-              <li>
-                <a href="#" className="custom-text">
-                  French
-                </a>
-              </li>
-              <li>
-                <a href="#" className="custom-text">
-                  Russian
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="row mt-3">
-          <div className="col text-center copyRight">
-            <p className="mb-0">Policy privacy</p>
-            <p className="mb-0">Copyright 2022. All rights reserved</p>
-          </div>
-        </div>
-      </div>
-    </footer>
+            ) : (
+              item.text
+            )}
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 };
+
+function Footer() {
+  const courses = [
+    { text: 'Animation' },
+    { text: 'Design' },
+    { text: 'Illustration' },
+    { text: 'Programming' },
+    { text: 'Photo & Film' },
+    { text: 'Marketing' }
+  ];
+
+  const teachers = [
+    { text: 'All teachers', link: '#teachers' },
+    { text: 'Becoming a Teacher' }
+  ];
+
+  const information = [
+    { text: 'Blog', link: '/blog' },
+    { text: 'About Us' },
+    { text: 'FAQ', link: '#faq' },
+    { text: 'Dashboard', link: '/dashboard' }
+
+  ];
+
+  const languages = [
+    { text: 'English' },
+    { text: 'French' },
+    { text: 'Russian' }
+  ];
+
+  return (
+    <section className="footer-section">
+      <section className="footer">
+        <div className="contact-section">
+          <div className="logo-container">
+            <img
+              className="logo"
+              src="./assets/images/Footer/logo.png"
+              alt="logo"
+            />
+            <h6>UpDate</h6>
+          </div>
+          <div className="contactInfo">
+            <h4>support@update.com</h4>
+            <h4>+1 (213) 677 10 24</h4>
+          </div>
+          <div className="social_media">
+            <img
+              src="./assets/images/Footer/Facebook.png"
+              alt="Facebook logo"
+            />
+            <img
+              src="./assets/images/Footer/Youtube.png"
+              alt="Youtube logo"
+            />
+            <img
+              src="./assets/images/Footer/Twitter.png"
+              alt="Twitter logo"
+            />
+          </div>
+        </div>
+
+        <div className="info-sections">
+          <InfoSection title="Courses" items={courses} />
+          <InfoSection title="Teachers" items={teachers} />
+          <InfoSection title="Information" items={information} />
+          <InfoSection title="Languages" items={languages} />
+        </div>
+      </section>
+      <section className="copyright">
+        <p>Policy privcay</p>
+        <p>Copyright 2022. All rights reserved</p>
+      </section>
+    </section>
+  );
+}
 
 export default Footer;

@@ -1,0 +1,86 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin: 10px;
+    width: 90%;
+    height: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.card-img-top:hover {
+    scale: 1.03;
+}
+
+.special-card {
+    height: 520px;
+    border-radius: 0;
+}
+
+.card-img-top {
+    height: 80%;
+    object-fit: cover;
+    transition: 0.4s;
+    border-radius: 0;
+}
+
+.cont-style {
+    padding: 100px 200px;
+    background-color: #EFEFF2;
+    background-image: url('./assets/images/Hero_Images/Main page/Ellipse 20.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.row-style {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.h2-style {
+    font-size: 45px;
+    font-weight: 700;
+    width: 100%;
+    text-align: start;
+}
+
+@media (max-width: 1200px) {
+    .cont-style {
+        padding: 60px;
+    }
+    .card {
+        width: 100%;
+    }
+}
+
+.h5-style {
+    margin: 10px auto;
+    font-size: 25px;
+}
+
+@media (max-width: 814px) {
+    .row-style {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+    }
+    .h2-style {
+        padding-top: 40px;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .cont-style {
+        padding: 20px;
+    }
+}
