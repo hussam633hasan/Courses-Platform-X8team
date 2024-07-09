@@ -12,6 +12,7 @@
   width: 80%;
   display: flex;
   justify-content: end;
+  align-items: center;
   position: relative;
 }
 
@@ -27,10 +28,9 @@
 .EI-searchicon {
   position: absolute;
   right: 30px;
-  top: 8px;
+
 }
 .EI-bellicon {
-  padding-top: 8px;
   margin-left: 8px;
 }
 

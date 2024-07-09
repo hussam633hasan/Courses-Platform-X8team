@@ -18,7 +18,7 @@ export default function Sidebar() {
       content: "students Say",
       kbClass: "ke-link",
       show: "ke-dash-sidebarink-show",
-      to: "//",
+      to: "/dashboard",
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ export default function Sidebar() {
       content: "Article",
       kbClass: "ke-link",
       show: "ke-dash-sidebarink-show",
-      to: "//",
+      to: "/articledashboard",
     },
   ];
 
