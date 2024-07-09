@@ -6,9 +6,6 @@ import HeaderArticle from "../../components/HeaderArticle/HeaderArticle";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 
-import Footer from "../../components/Footer/Footer";
-
-
 function Article() {
   const relevant = {
     title: "Which styles are no longer relevant",

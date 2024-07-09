@@ -6,52 +6,31 @@ import Courses from "./pages/Courses/Courses";
 import Blog from "./pages/Blog/Blog";
 import Article from "./pages/Article/Article";
 import Dashboard from "./pages/Dashboard/Dashboard";
-
-import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
 import Addstudent from "./pages/Addstudent/Addstudent";
 import ViewStudent from "./pages/ViewStudent/ViewStudent";
-
 import EditStudent from "./pages/EditStudent/EditStudent.jsx";
-
-
 import ArticleDashboard from "./pages/Dashboard/ArticleDashboard"; 
 import AddArticle from "./pages/Dashboard/AddArticles";
 import EditArticle from "./pages/Dashboard/EditArticle";
 import ArticleDetailPage from "./pages/Dashboard/ArticleDetail";
 
-
-
-
-
 function App() {
   return (
     <>
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/article" element={<Article />} />
         <Route path="/dashboard" element={<Dashboard />} />
-
         <Route path="/add-student" element={<Addstudent />} />
         <Route path="/view-student/:id" element={<ViewStudent />} />
         <Route path="/edit-student/:id" element={<EditStudent />} />
-
         <Route path="/articledashboard" element={<ArticleDashboard />} />
         <Route path="/addarticle" element={<AddArticle />} /> 
         <Route path="/editarticle/:title" element={<EditArticle />} />
         <Route path="/articledetail/:title" element={<ArticleDetailPage />} />
-
       </Routes>
-    
-
-
-     
-
-
-
     </>
   );
 }
