@@ -1,0 +1,86 @@
+                .f-container {
+                    width: 50%;
+                    margin: 0 auto;
+                    padding: 20px;
+                    background-color: #fff
+                }
+                
+                .h1-add {
+                    text-align: start;
+                    margin: 50px 0px;
+                    color: #333;
+                    font-weight: 40px;
+                }
+                
+                .f-group {
+                    margin-bottom: 15px;
+                }
+                
+                .f-group label {
+                    display: block;
+                    margin: 20px 0px;
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+                
+                .f-group label span {
+                    color: red;
+                }
+                
+                .f-group input[type="text"],
+                .f-group input[type="date"],
+                .f-group textarea {
+                    width: 100%;
+                    padding: 10px;
+                    border: none;
+                    font-size: 16px;
+                    background-color: rgba(248, 250, 252, 1);
+                    cursor: pointer;
+                }
+                
+                .f-group textarea {
+                    resize: vertical;
+                    height: 150px;
+                }
+                
+                .add-butt {
+                    width: 200px;
+                    padding: 12px 25px;
+                    background-color: #4a47d4;
+                    color: white;
+                    border: none;
+                    border-radius: 7px;
+                    font-size: 16px;
+                    cursor: pointer;
+                    transition: 0.5s;
+                }
+                
+                .add-buttt {
+                    margin-top: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                .add-butt:hover {
+                    background-color: #3a37a0;
+                    transform: scale(1.05);
+                }
+                
+                @media (max-width: 1000px) {
+                    .f-container {
+                        width: 60%;
+                        padding: 20px;
+                        background-color: #fff;
+                        margin-left: 30%;
+                    }
+                }
+                
+                @media (max-width: 790px) {
+                    .f-container {
+                        width: 100%;
+                        padding: 20px;
+                        background-color: #fff;
+                        margin-left: 0%;
+                    }
+                }

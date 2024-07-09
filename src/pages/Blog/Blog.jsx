@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Blog.css";
+import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
 
 const initialArticles = [
   {
@@ -98,6 +100,7 @@ function Blog() {
 
   return (
     <>
+       <Navbar/>
       <section className="category-Nav">
         <ul>
           {[
@@ -182,6 +185,7 @@ function Blog() {
         <a href="#">&rarr;</a>
       </nav>
       </section>
+      <Footer />
     </>
   );
 }

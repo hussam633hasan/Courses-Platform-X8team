@@ -3,6 +3,8 @@ import PopularStyles from "../../components/PopularStyles/PopularStyles";
 import ArticleText from "../../components/ArticleText/ArticleText";
 import StylesTop from '../../components/StylesTop/StylesTop';
 import HeaderArticle from "../../components/HeaderArticle/HeaderArticle";
+import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
 
 
 function Article() {
@@ -20,11 +22,13 @@ function Article() {
         }
 
     return (<>
+        <Navbar/>
         <HeaderArticle/>
         <PopularStyles />
         <ArticleText prop={relevant} />
         <StylesTop />
         <ArticleText prop={toFollow} />
+        <Footer />
     </>
     )
 }
