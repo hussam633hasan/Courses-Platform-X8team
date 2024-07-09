@@ -9,14 +9,13 @@ import StudentsProjects from '../../components/StudentsProjects/StudentsProjects
 import TrainingProgram from '../../components/TrainingProgram/TrainingProgram';
 import Teachers from "../../components/Teachers/Teachers";
 import Price from "../../components/Price/Price";
-import Navbar from "../../components/Navbar/Navbar.jsx";
-import Footer from "../../components/Footer/Footer.jsx";
+import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
 
 function Courses() {
 
     return (<>
-
-        <Navbar />
+       <Navbar/>
         <HeaderCourses />
         <ProfessionDesigner />
         <CoursesInfo />
