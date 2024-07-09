@@ -1,0 +1,90 @@
+.EI-addsection {
+  width: 60%;
+  margin: 80px 25%;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.EI-title {
+  font-family: "Montserrat", "Inter", "Arial";
+  font-weight: 700;
+  font-size: 22px;
+  color: black;
+  padding-top: 80px;
+  margin-bottom: 110px;
+  text-align: left;
+}
+
+.required {
+  width: 70%;
+  color: #6f7482;
+  margin-bottom: 3px;
+  display: block;
+}
+
+.required:after {
+  content: " *";
+  color: red;
+  display: inline;
+}
+
+.EI-add {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.EI-add input,
+.EI-add textarea {
+  width: 70%;
+  border: none;
+  background-color: #f8fafc;
+  margin-bottom: 32px;
+}
+
+.EI-add input {
+  height: 47px;
+}
+
+.EI-add textarea {
+  height: 150px;
+}
+
+.EI-submit {
+  width: 183px;
+  height: 41px;
+  margin-left: 280px;
+  padding: 12px 40px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  background-color: #504dee;
+  color: white;
+}
+@media (max-width: 1365px) {
+  .EI-addsection {
+    margin-left: 30%;
+  }
+
+}
+@media (max-width: 995px) {
+  .EI-addsection {
+    margin-left: 34%;
+  }
+
+
+}
+@media (max-width: 768px) {
+  .EI-addsection {
+    width: 100%;
+    padding: 50px 50px;
+    margin: 100px 0;
+  }
+
+
+  .EI-submit {
+    margin-left: 30px;}
+}
