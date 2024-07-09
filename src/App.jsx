@@ -6,7 +6,7 @@ import Courses from "./pages/Courses/Courses";
 import Blog from "./pages/Blog/Blog";
 import Article from "./pages/Article/Article";
 import Dashboard from "./pages/Dashboard/Dashboard";
-<<<<<<< HEAD
+
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Addstudent from "./pages/Addstudent/Addstudent";

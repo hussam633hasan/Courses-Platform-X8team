@@ -4,11 +4,9 @@ import ArticleText from "../../components/ArticleText/ArticleText";
 import StylesTop from "../../components/StylesTop/StylesTop";
 import HeaderArticle from "../../components/HeaderArticle/HeaderArticle";
 import Navbar from "../../components/Navbar/Navbar";
-<<<<<<< HEAD
+
 import Footer from "../../components/Footer/Footer";
 
-=======
->>>>>>> 8d4bb509f41c629b96c54308f412b1ef1c738d26
 
 function Article() {
   const relevant = {
@@ -19,30 +17,14 @@ function Article() {
       "Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
   };
 
-  const toFollow = {
-    title: "What style to follow and how to preserve your authenticity?",
-    text1:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis  occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
-    text2:
-      "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
-  };
-
-<<<<<<< HEAD
     const toFollow = {
             title : "What style to follow and how to preserve your authenticity?",
             text1 : "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis  occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
             text2 : "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
         }
 
-    return (<>
-        <Navbar/>
-        <HeaderArticle/>
-        <PopularStyles />
-        <ArticleText prop={relevant} />
-        <StylesTop />
-        <ArticleText prop={toFollow} />
-        <Footer />
-=======
+  
+
   return (
     <>
       <Navbar />
@@ -52,7 +34,7 @@ function Article() {
       <StylesTop />
       <ArticleText prop={toFollow} />
       <Footer />
->>>>>>> 8d4bb509f41c629b96c54308f412b1ef1c738d26
+
     </>
   );
 }
