@@ -4,6 +4,7 @@ import ArticleText from "../../components/ArticleText/ArticleText";
 import StylesTop from "../../components/StylesTop/StylesTop";
 import HeaderArticle from "../../components/HeaderArticle/HeaderArticle";
 import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
 
 function Article() {
   const relevant = {
