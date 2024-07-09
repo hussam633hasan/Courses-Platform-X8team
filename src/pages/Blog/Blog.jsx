@@ -100,7 +100,9 @@ function Blog() {
 
   return (
     <>
-       <Navbar/>
+
+      <Navbar />
+
       <section className="category-Nav">
         <ul>
           {[

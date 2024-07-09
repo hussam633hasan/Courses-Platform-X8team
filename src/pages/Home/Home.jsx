@@ -14,6 +14,8 @@ import Footer from "../../components/Footer/Footer";
 function Home() {
   return( <>
   <Navbar/>
+
+
   <HeaderHome/>
   <ContentInfo />
   <DiscoverLearning />
@@ -25,7 +27,9 @@ function Home() {
   <BlackWhiteCards /> 
   <ProgramQuestion/>
   <FAQ/>
+
   <Footer />   
+
   </>
   )
 }

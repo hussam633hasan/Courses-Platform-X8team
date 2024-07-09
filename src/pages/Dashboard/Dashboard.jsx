@@ -1,7 +1,9 @@
+
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Dashboard.css';
-import Sidebar from '../../components/Sidebar/Sidebar';
+import React from "react";
+import Sidebar from "../../components/SideBarDashboard/SideBar";
 
 const Dashboard = () => {
   const [students, setStudents] = useState([]);
@@ -38,6 +40,7 @@ const Dashboard = () => {
     student.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
   return (
+
     <>
     <Sidebar/>
 
@@ -139,5 +142,6 @@ const Dashboard = () => {
     
   );
 };
+
 
 export default Dashboard;

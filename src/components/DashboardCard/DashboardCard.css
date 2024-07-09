@@ -1,0 +1,36 @@
+.DJ-dashboardCard {
+    padding: 100px 200px;
+    margin-left: 200px;
+}
+
+.DJ-dashboardCard .DJ-studentCard {
+    max-width: 650px;
+    margin: 100px auto;
+    padding: 40px;
+    border: 2px solid black;
+}
+
+.DJ-dashboardCard .DJ-studentCard .DJ-titleText h4 {
+    font-weight: 700;
+}
+
+.DJ-dashboardCard .DJ-studentCard p {
+    margin: 25px 0 0;
+    max-width: 475px;
+    color: #6d6d77;
+    line-height: 1.7;
+}
+
+@media screen and (max-width: 1200px) {
+    .DJ-dashboardCard {
+
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .DJ-dashboardCard {
+        margin-top: 100px;
+        margin-left: 0;
+    }
+}
