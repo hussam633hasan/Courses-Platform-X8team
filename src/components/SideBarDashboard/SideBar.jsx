@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../../public/assets/images/Dashboard/SideBar/logo.svg";
-import WhiteStudentSay from "../../../public/assets/images/Dashboard/SideBar/WhiteStudentSay.svg";
-import BlackStudentSay from "../../../public/assets/images/Dashboard/SideBar/BlackStudentSay.svg";
-import WhiteArticle from "../../../public/assets/images/Dashboard/SideBar/WhiteArticle.svg";
-import BlackArticle from "../../../public/assets/images/Dashboard/SideBar/BlackArticle.svg";
+import logo from "./assets/images/Dashboard/SideBar/logo.svg";
+import WhiteStudentSay from "./assets/images/Dashboard/SideBar/WhiteStudentSay";
+import BlackStudentSay from "./assets/images/Dashboard/SideBar/BlackStudentSay";
+import WhiteArticle from "./assets/images/Dashboard/SideBar/WhiteArticle";
+import BlackArticle from "./assets/images/Dashboard/SideBar/BlackArticle";
 
 import "./SideBar.css";
 
